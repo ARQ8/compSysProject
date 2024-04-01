@@ -3,7 +3,6 @@
 #include <time.h>
 
 #define FILENAME "randomNumbers.txt" // File being written to
-#define L 10000     // Number of integers to generate
 #define H_MIN 30    // Minimum number of hidden keys allowed
 #define H_MAX 60    // Maximum number of hidden keys allowed
 
@@ -11,6 +10,20 @@ int main(int argc, char* argv[]) {
     FILE *file;
     int i, num, sum, max;
     float average;
+    if(!(argc==4)){
+        printf("Not expected number of inputs");
+        return 0;
+    }
+    int L = atoi(argv[1]);
+    int H = atoi(argv[2]);
+    int PN = atoi(argv[3]);
+    if(L<10000){
+        printf("Value of L not acceptable\n");
+    }
+    if((H<H_MIN)||(H>H_MAX)){
+        printf("Value of H not acceptable\n");
+    }
+
 
     file = fopen(FILENAME, "w");    // Open file
 
