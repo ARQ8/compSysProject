@@ -1,12 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
+#include <sys/wait.h>
 
 #define FILENAME "randomNumbers.txt" // File being written to
+#define FOUND_KEYS_FILE "foundKeys.txt"     // File for key info
+#define READ_END 0
+#define WRITE_END 1
 
 // Function prototypes
 void generateRandomNumbers(int L);
 void hiddenKeys(int H, int L);
+int findMax(int arr[], int start, int end);
+void createChild(int PN, int nums[], int start, int seg, int fd[][2]);
 
 int main(int argc, char* argv[]) {
     // Check if the correct number of arguments is provided
@@ -32,10 +39,22 @@ int main(int argc, char* argv[]) {
     generateRandomNumbers(L);   // Call function to generate L random numbers
     hiddenKeys(H, L);           // Call function to generate hidden keys
 
+    int num[L];
+    FILE *file = fopen(FILENAME, "r");
+    if (file == NULL) {
+        fprintf(stderr, "Error opening file %s\n", FILENAME);
+        return 1;
+    }
+    for (int i = 0; i < L; ++i) {
+        fscanf(file, "%d", &num[i]);
+    }
+    fclose(file);
+
+    int fd[PN][2];
+    createChild(PN, num, 0, L/PN, fd);
+
     return 0;
 }
-
-
 
 void generateRandomNumbers(int L) {
     FILE *file;
@@ -67,8 +86,8 @@ void generateRandomNumbers(int L) {
 
     fclose(file);
     printf("Random numbers generated and written to file\n");
-    printf("Sum of all numbers: %d\n", sum);
-    printf("Max=%d, Avg=%.2f\n", max, average);
+    printf("Self Calculated Sum of all numbers: %d\n", sum);
+    printf("Self Calcualted Max=%d, Avg=%.2f\n", max, average);
 
 }
 
@@ -99,4 +118,73 @@ void hiddenKeys(int H, int L) {
 
     fclose(file);
     printf("Secret keys hidden in file\n");
+}
+
+int findMax(int arr[], int start, int end) {
+   int max = arr[start];  // Initialize max with the first element of the specified part
+  
+   for (int i = start + 1; i <= end; i++) {
+       if (arr[i] > max) {
+           max = arr[i];  // Update max if a larger element is found
+       }
+   }
+  
+   return max;
+}
+
+float findAvg(int arr[], int start, int end) {
+    int sum = 0;
+    for (int i = start; i < end + 1; i++) {
+        sum = arr[i] + sum;
+    }
+    return (float)sum / (end - start + 1);
+}
+
+
+void createChild(int PN, int nums[], int start, int seg, int fd[][2]) {
+   if (PN <= 0) {
+       return;
+   }
+
+
+   pid_t pid;
+   int maxChild;
+   for(int i=0; i<PN;i++){
+       pipe(fd[i]);
+   }
+
+   pid = fork();
+   if (pid < 0) {
+       perror("Fork failed");
+       exit(EXIT_FAILURE);
+   } else if (pid == 0) {
+       // Child process
+       createChild(PN - 1, nums, start + seg, seg, fd);
+       if (PN == 1) {
+           // Last child, compute local maximum and write to pipe
+           int end = start + seg - 1;
+           int localMax = findMax(nums, start, end);
+           write(fd[0][WRITE_END], &localMax, sizeof(localMax));  // Write max value to the pipe
+           printf("Child PID: %d\n", getpid());
+           close(fd[0][WRITE_END]);  // Close write end
+           exit(0);
+       }
+   } else {
+       // Parent process
+       close(fd[PN-1][WRITE_END]);  // Close unused read end
+       int end = start + seg - 1;
+       int localMax = findMax(nums, start, end);
+       float localAvg = findAvg(nums, start, end);
+       wait(NULL);  // Wait for child process to finish
+       read(fd[PN-1][READ_END], &maxChild, sizeof(maxChild));  // Read max value from the pipe
+        if (localMax > maxChild){
+           maxChild = localMax;
+       }
+       printf("Hi I'm process %d with return arg %d and my parent is %d\n", getpid(), PN, getppid());
+       printf("Current Overall max: %d\tCurrent Avg: %f\n", maxChild, localAvg);
+       write(fd[PN][WRITE_END],&maxChild,sizeof(maxChild));
+      
+       close(fd[PN-1][READ_END]);  // Close read end
+       exit(EXIT_SUCCESS);
+   }
 }
