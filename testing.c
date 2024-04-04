@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 #define FILENAME "randomNumbers.txt" // File being written to
-#define FOUND_KEYS_FILE "foundKeys.txt"     // File for key info
+#define FOUND_KEYS_FILE "output.txt"     // File for key info
 #define READ_END 0
 #define WRITE_END 1
 
@@ -173,13 +173,21 @@ float findAvg(int arr[], int start, int end) {
 
 
 int findKey(int arr[], int start, int end, int H) {
+    FILE *file = fopen(FOUND_KEYS_FILE, "a");
     int counter = 0;
+    if (file == NULL) {
+        printf("Error opening file.\n");
+        exit(EXIT_FAILURE);
+    }
+
     for (int i = start; i <= end; i++) {
         if ((arr[i] < 0) && (counter < H)) {
-            printf("Key at num[%d]\n", i);
+            fprintf(file, "Key at num[%d]\n", i);
             counter++;
         }
     }
+
+    fclose(file);
 }
 
 
@@ -235,11 +243,21 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
         if (localMax > maxChild){
            maxChild = localMax;
        }
-       printf("Hi I'm process %d with return arg %d and my parent is %d\n", getpid(), PN, getppid());
+       FILE *file = fopen(FOUND_KEYS_FILE, "a");
+
+       if (file == NULL) {
+        printf("Error opening file\n");
+        exit(EXIT_FAILURE);
+       }
+       
+       fprintf(file, "Hi I'm process %d with return arg %d and my parent is %d\n", getpid(), PN, getppid());
        if (finalProcess == true) {
         finalAvg = totalAvgSum / PN;
-        printf("Max: %d\tAverage: %f\n", maxChild, finalAvg);
+        fprintf(file, "Max: %d\tAverage: %f\n", maxChild, finalAvg);
         }
+
+        fclose(file);
+
        write(fd[PN][WRITE_END], &totalAvgSum, sizeof(totalAvgSum));
        write(fd[PN][WRITE_END], &maxChild, sizeof(maxChild));
        
