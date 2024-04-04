@@ -204,14 +204,10 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        // Child process
        createChild(PN - 1, nums, start + seg, seg, fd, false, H, size);
        if (PN == 1) {
-           // Last child, compute local maximum and write to pipe
-           //printf("%d\n",size);
-           //int size = sizeof(nums) / sizeof(nums[0]);
+           // Last child sends 0 values back so second to last isn't waiting at read
            int end = size-1;
-           int localMax = findMax(nums, start, end);
-           printf("%d\n",localMax);
-           float localAvg = findAvg(nums, start, end);
-           printf("%f\n",localAvg);
+           int localMax = 0;
+           float localAvg = 0;
            write(fd[0][WRITE_END], &localAvg, sizeof(localAvg));  // Write local avg to the pipe
            write(fd[0][WRITE_END], &localMax, sizeof(localMax));  // Write max value to the pipe
            printf("Child PID: %d\n", getpid());
@@ -222,6 +218,9 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        // Parent process
        close(fd[PN-1][WRITE_END]);  // Close unused read end
        int end = start + seg - 1;
+       if(PN==1){
+        end = size-1;
+       }
        int localMax = findMax(nums, start, end);
        float localAvg = findAvg(nums, start, end);
        int keys = findKey(nums, start, end, H);
