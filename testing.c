@@ -15,7 +15,7 @@ void generateRandomNumbers(int L);
 //void hiddenKeys(int H, int L);
 int findMax(int arr[], int start, int end);
 float findAvg(int arr[], int start, int end);
-int findKey(int arr[], int start, int end, int H);
+int findKey(int arr[], int start, int end, int H,int count, int rVal);
 void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool finalProcess, int H, int size);
 
 int main(int argc, char* argv[]) {
@@ -52,10 +52,14 @@ int main(int argc, char* argv[]) {
         fscanf(file, "%d", &num[i]);
     }
     fclose(file);
-
+    clock_t start,end;
+    double cpu_time;
     int fd[PN][2];
+    start = clock();
     createChild(PN, num, 0, (L)/PN, fd, true, H, L);
-
+    end = clock();
+    cpu_time = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf("CPU Time: %f/n",cpu_time);
     return 0;
 }
 
@@ -172,20 +176,22 @@ float findAvg(int arr[], int start, int end) {
 }
 
 
-int findKey(int arr[], int start, int end, int H) {
+int findKey(int arr[], int start, int end, int H, int count, int rVal) {
     FILE *file = fopen(FOUND_KEYS_FILE, "a");
-    int counter = 0;
+    int counter = count;
     if (file == NULL) {
         printf("Error opening file.\n");
         exit(EXIT_FAILURE);
     }
-
-    for (int i = start; i <= end; i++) {
-        if ((arr[i] < 0) && (counter < H)) {
-            fprintf(file, "Key at num[%d]\n", i);
-            counter++;
+    if(count<H){
+        for (int i = start; i <= end; i++) {
+            if ((arr[i] < 0) && (counter < H)) {
+                fprintf(file, "Hi im process %d with return arg %d. I found the hidden key in position A[%d]\n",getpid(),rVal, i);
+                counter++;
+            }
         }
     }
+    return counter;
 
     fclose(file);
 }
@@ -203,7 +209,6 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
    for(int i=0; i<PN;i++){
        pipe(fd[i]);
    }
-
    pid = fork();
    if (pid < 0) {
        perror("Fork failed");
@@ -213,11 +218,14 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        createChild(PN - 1, nums, start + seg, seg, fd, false, H, size);
        if (PN == 1) {
            // Last child sends 0 values back so second to last isn't waiting at read
+           system("pstree -p $$");
            int end = size-1;
            int localMax = 0;
            float localAvg = 0;
-           write(fd[0][WRITE_END], &localAvg, sizeof(localAvg));  // Write local avg to the pipe
-           write(fd[0][WRITE_END], &localMax, sizeof(localMax));  // Write max value to the pipe
+            int count=0;
+           write(fd[0][WRITE_END], &localAvg, sizeof(localAvg));  // Write 0 to the pipe
+           write(fd[0][WRITE_END], &localMax, sizeof(localMax));  // Write 0 to the pipe
+           write(fd[0][WRITE_END], &count, sizeof(count));  // Write 0 to the pipe
            printf("Child PID: %d\n", getpid());
            close(fd[0][WRITE_END]);  // Close write end
            exit(0);
@@ -231,15 +239,17 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        }
        int localMax = findMax(nums, start, end);
        float localAvg = findAvg(nums, start, end);
-       int keys = findKey(nums, start, end, H);
 
        float totalAvgSum;
        float finalAvg;
-
+       int count;
        wait(NULL);  // Wait for child process to finish
        read(fd[PN-1][READ_END], &totalAvgSum, sizeof(totalAvgSum));  // Read local avg from the pipe
         totalAvgSum = totalAvgSum + localAvg;
        read(fd[PN-1][READ_END], &maxChild, sizeof(maxChild));  // Read max value from the pipe
+       read(fd[PN-1][READ_END], &count, sizeof(count));
+       
+        count = findKey(nums, start, end, H, count,PN);
         if (localMax > maxChild){
            maxChild = localMax;
        }
@@ -254,16 +264,16 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        if (finalProcess == true) {
         finalAvg = totalAvgSum / PN;
         fprintf(file, "Max: %d\tAverage: %f\n", maxChild, finalAvg);
+        return;
         }
 
         fclose(file);
 
        write(fd[PN][WRITE_END], &totalAvgSum, sizeof(totalAvgSum));
        write(fd[PN][WRITE_END], &maxChild, sizeof(maxChild));
-       
-      
+       write(fd[PN][WRITE_END], &count, sizeof(count));
        close(fd[PN-1][READ_END]);  // Close read end
        close(fd[PN][WRITE_END]);
-       exit(EXIT_SUCCESS);
+       exit(PN);
    }
 }
