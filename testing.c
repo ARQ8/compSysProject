@@ -42,7 +42,7 @@ int main(int argc, char* argv[]) {
     generateRandomNumbers(L);   // Call function to generate L random numbers
 //    hiddenKeys(H, L);           // Call function to generate hidden keys
 
-    int num[L];
+    int num[L+60];
     FILE *file = fopen(FILENAME, "r");
     if (file == NULL) {
         fprintf(stderr, "Error opening file %s\n", FILENAME);
@@ -205,7 +205,10 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        createChild(PN - 1, nums, start + seg, seg, fd, false, H);
        if (PN == 1) {
            // Last child, compute local maximum and write to pipe
-           int end = start + seg - 1;
+           //printf("%d\n",size);
+           int size = sizeof(nums) / sizeof(nums[0]);
+           printf("%d\n",size);
+           int end = size-1;
            int localMax = findMax(nums, start, end);
            float localAvg = findAvg(nums, start, end);
            write(fd[0][WRITE_END], &localAvg, sizeof(localAvg));  // Write local avg to the pipe
@@ -222,11 +225,12 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
        float localAvg = findAvg(nums, start, end);
        int keys = findKey(nums, start, end, H);
 
-       float totalAvgSum = totalAvgSum + localAvg;
+       float totalAvgSum;
        float finalAvg;
 
        wait(NULL);  // Wait for child process to finish
-       read(fd[PN-1][READ_END], &localAvg, sizeof(localAvg));  // Read local avg from the pipe
+       read(fd[PN-1][READ_END], &totalAvgSum, sizeof(totalAvgSum));  // Read local avg from the pipe
+        totalAvgSum = totalAvgSum + localAvg;
        read(fd[PN-1][READ_END], &maxChild, sizeof(maxChild));  // Read max value from the pipe
         if (localMax > maxChild){
            maxChild = localMax;
@@ -236,10 +240,12 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool final
         finalAvg = totalAvgSum / PN;
         printf("Max: %d\tAverage: %f\n", maxChild, finalAvg);
         }
+       write(fd[PN][WRITE_END], &totalAvgSum, sizeof(totalAvgSum));
        write(fd[PN][WRITE_END], &maxChild, sizeof(maxChild));
-       write(fd[PN][WRITE_END], &localAvg, sizeof(localAvg));
+       
       
        close(fd[PN-1][READ_END]);  // Close read end
+       close(fd[PN][WRITE_END]);
        exit(EXIT_SUCCESS);
    }
 }
