@@ -3,6 +3,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <stdbool.h>
 
 #define FILENAME "randomNumbers.txt" // File being written to
 #define FOUND_KEYS_FILE "foundKeys.txt"     // File for key info
@@ -13,7 +14,9 @@
 void generateRandomNumbers(int L);
 void hiddenKeys(int H, int L);
 int findMax(int arr[], int start, int end);
-void createChild(int PN, int nums[], int start, int seg, int fd[][2]);
+float findAvg(int arr[], int start, int end);
+int findKey(int arr[], int start, int end, int H);
+void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool finalProcess, int H);
 
 int main(int argc, char* argv[]) {
     // Check if the correct number of arguments is provided
@@ -51,7 +54,7 @@ int main(int argc, char* argv[]) {
     fclose(file);
 
     int fd[PN][2];
-    createChild(PN, num, 0, L/PN, fd);
+    createChild(PN, num, 0, L/PN, fd, true, H);
 
     return 0;
 }
@@ -95,7 +98,6 @@ void generateRandomNumbers(int L) {
 void hiddenKeys(int H, int L) {
     FILE *file;
     int i, num, position;
-    const char EOL = '\n';
 
     file = fopen(FILENAME, "r+");   // Open file for reading and writing
 
@@ -141,7 +143,19 @@ float findAvg(int arr[], int start, int end) {
 }
 
 
-void createChild(int PN, int nums[], int start, int seg, int fd[][2]) {
+int findKey(int arr[], int start, int end, int H) {
+    int counter = 0;
+    for (int i = start; i < end; i++) {
+        if ((arr[i] < 0) && (counter < H)) {
+            printf("Key at num[%d]\n", i);
+            counter++;
+        }
+    }
+}
+
+
+
+void createChild(int PN, int nums[], int start, int seg, int fd[][2], bool finalProcess, int H) {
    if (PN <= 0) {
        return;
    }
@@ -159,7 +173,7 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2]) {
        exit(EXIT_FAILURE);
    } else if (pid == 0) {
        // Child process
-       createChild(PN - 1, nums, start + seg, seg, fd);
+       createChild(PN - 1, nums, start + seg, seg, fd, false, H);
        if (PN == 1) {
            // Last child, compute local maximum and write to pipe
            int end = start + seg - 1;
@@ -175,13 +189,17 @@ void createChild(int PN, int nums[], int start, int seg, int fd[][2]) {
        int end = start + seg - 1;
        int localMax = findMax(nums, start, end);
        float localAvg = findAvg(nums, start, end);
+       int keys = findKey(nums, start, end, H);
+       
        wait(NULL);  // Wait for child process to finish
        read(fd[PN-1][READ_END], &maxChild, sizeof(maxChild));  // Read max value from the pipe
         if (localMax > maxChild){
            maxChild = localMax;
        }
        printf("Hi I'm process %d with return arg %d and my parent is %d\n", getpid(), PN, getppid());
-       printf("Current Overall max: %d\tCurrent Avg: %f\n", maxChild, localAvg);
+       if (finalProcess == true) {
+        printf("Max: %d\tAverage: %f\n", maxChild, localAvg);
+        }
        write(fd[PN][WRITE_END],&maxChild,sizeof(maxChild));
       
        close(fd[PN-1][READ_END]);  // Close read end
