@@ -1,0 +1,1181 @@
+Hi I'm process 84658 with return arg 1 and my parent is 84657
+Hi im process 84658 with return arg 1. I found the hidden key in position A[66708]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[67451]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[69395]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[70276]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[71144]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[74621]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[77732]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[79207]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[80000]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[80851]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[83599]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[84381]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[84665]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[86674]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[89817]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[92421]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[92827]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[93264]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[93741]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[95161]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[95806]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[96647]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[96725]
+Hi im process 84658 with return arg 1. I found the hidden key in position A[98128]
+Hi I'm process 84657 with return arg 2 and my parent is 84656
+Hi im process 84657 with return arg 2. I found the hidden key in position A[37119]
+Hi im process 84657 with return arg 2. I found the hidden key in position A[38398]
+Hi im process 84657 with return arg 2. I found the hidden key in position A[39999]
+Hi im process 84657 with return arg 2. I found the hidden key in position A[40773]
+Hi im process 84657 with return arg 2. I found the hidden key in position A[42909]
+Hi im process 84657 with return arg 2. I found the hidden key in position A[44694]
+Hi I'm process 84656 with return arg 3 and my parent is 63454
+Max: 10000	Average: 5004.077637
+Hi I'm process 84679 with return arg 1 and my parent is 84678
+Hi im process 84679 with return arg 1. I found the hidden key in position A[676951]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[696256]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[742308]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[743526]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[743871]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[768806]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[775231]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[776471]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[792582]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[793636]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[799242]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[814158]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[825938]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[838745]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[936943]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[977781]
+Hi im process 84679 with return arg 1. I found the hidden key in position A[999520]
+Hi I'm process 84678 with return arg 2 and my parent is 84677
+Hi im process 84678 with return arg 2. I found the hidden key in position A[335011]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[350740]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[365197]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[372812]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[399282]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[450562]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[451158]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[452886]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[469507]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[501062]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[501101]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[504687]
+Hi im process 84678 with return arg 2. I found the hidden key in position A[535080]
+Hi I'm process 84677 with return arg 3 and my parent is 63454
+Max: 10000	Average: 4997.711426
+Hi I'm process 85345 with return arg 1 and my parent is 85344
+Hi im process 85345 with return arg 1. I found the hidden key in position A[9902]
+Hi im process 85345 with return arg 1. I found the hidden key in position A[9957]
+Hi I'm process 85344 with return arg 2 and my parent is 85343
+Hi I'm process 85343 with return arg 3 and my parent is 85342
+Hi I'm process 85342 with return arg 4 and my parent is 85341
+Hi I'm process 85341 with return arg 5 and my parent is 85340
+Hi I'm process 85340 with return arg 6 and my parent is 85339
+Hi I'm process 85339 with return arg 7 and my parent is 85338
+Hi I'm process 85338 with return arg 8 and my parent is 85337
+Hi I'm process 85337 with return arg 9 and my parent is 85336
+Hi I'm process 85336 with return arg 10 and my parent is 85335
+Hi I'm process 85335 with return arg 11 and my parent is 85334
+Hi I'm process 85334 with return arg 12 and my parent is 85333
+Hi I'm process 85333 with return arg 13 and my parent is 85332
+Hi I'm process 85332 with return arg 14 and my parent is 85331
+Hi I'm process 85331 with return arg 15 and my parent is 85330
+Hi I'm process 85330 with return arg 16 and my parent is 85329
+Hi I'm process 85329 with return arg 17 and my parent is 85328
+Hi I'm process 85921 with return arg 1 and my parent is 85920
+Hi im process 85921 with return arg 1. I found the hidden key in position A[9933]
+Hi im process 85921 with return arg 1. I found the hidden key in position A[9940]
+Hi I'm process 85920 with return arg 2 and my parent is 85919
+Hi I'm process 85919 with return arg 3 and my parent is 85918
+Hi I'm process 85918 with return arg 4 and my parent is 85917
+Hi I'm process 85917 with return arg 5 and my parent is 85916
+Hi I'm process 85916 with return arg 6 and my parent is 85915
+Hi I'm process 85915 with return arg 7 and my parent is 85914
+Hi I'm process 85914 with return arg 8 and my parent is 85913
+Hi I'm process 86466 with return arg 1 and my parent is 86465
+Hi im process 86466 with return arg 1. I found the hidden key in position A[9803]
+Hi im process 86466 with return arg 1. I found the hidden key in position A[9977]
+Hi I'm process 86465 with return arg 2 and my parent is 86464
+Hi I'm process 86464 with return arg 3 and my parent is 86463
+Hi I'm process 86463 with return arg 4 and my parent is 86462
+Hi I'm process 86462 with return arg 5 and my parent is 86461
+Hi I'm process 86461 with return arg 6 and my parent is 86460
+Hi I'm process 86460 with return arg 7 and my parent is 86459
+Hi im process 86460 with return arg 7. I found the hidden key in position A[9590]
+Hi I'm process 86459 with return arg 8 and my parent is 86458
+Hi I'm process 86458 with return arg 9 and my parent is 86457
+Hi I'm process 86457 with return arg 10 and my parent is 86456
+Hi im process 86457 with return arg 10. I found the hidden key in position A[9519]
+Hi I'm process 86456 with return arg 11 and my parent is 86455
+Hi I'm process 86455 with return arg 12 and my parent is 86454
+Hi im process 86455 with return arg 12. I found the hidden key in position A[9491]
+Hi I'm process 86454 with return arg 13 and my parent is 86453
+Hi I'm process 86453 with return arg 14 and my parent is 86452
+Hi I'm process 86452 with return arg 15 and my parent is 86451
+Hi I'm process 86451 with return arg 16 and my parent is 86450
+Hi im process 86451 with return arg 16. I found the hidden key in position A[9406]
+Hi I'm process 86450 with return arg 17 and my parent is 86449
+Hi I'm process 86449 with return arg 18 and my parent is 86448
+Hi I'm process 86448 with return arg 19 and my parent is 86447
+Hi I'm process 86447 with return arg 20 and my parent is 86446
+Hi I'm process 86446 with return arg 21 and my parent is 86445
+Hi I'm process 86445 with return arg 22 and my parent is 86444
+Hi I'm process 86444 with return arg 23 and my parent is 86443
+Hi im process 86444 with return arg 23. I found the hidden key in position A[9274]
+Hi I'm process 86443 with return arg 24 and my parent is 86442
+Hi I'm process 86442 with return arg 25 and my parent is 86441
+Hi I'm process 86441 with return arg 26 and my parent is 86440
+Hi I'm process 86440 with return arg 27 and my parent is 86439
+Hi I'm process 86439 with return arg 28 and my parent is 86438
+Hi I'm process 86438 with return arg 29 and my parent is 86437
+Hi I'm process 86437 with return arg 30 and my parent is 86436
+Hi I'm process 86436 with return arg 31 and my parent is 86435
+Hi I'm process 86435 with return arg 32 and my parent is 86434
+Hi I'm process 86434 with return arg 33 and my parent is 86433
+Hi I'm process 86433 with return arg 34 and my parent is 86432
+Hi im process 86433 with return arg 34. I found the hidden key in position A[9067]
+Hi I'm process 86432 with return arg 35 and my parent is 86431
+Hi I'm process 86431 with return arg 36 and my parent is 86430
+Hi I'm process 86430 with return arg 37 and my parent is 86429
+Hi im process 86430 with return arg 37. I found the hidden key in position A[9008]
+Hi I'm process 86429 with return arg 38 and my parent is 86428
+Hi I'm process 86428 with return arg 39 and my parent is 86427
+Hi I'm process 86427 with return arg 40 and my parent is 86426
+Hi I'm process 86426 with return arg 41 and my parent is 86425
+Hi I'm process 86425 with return arg 42 and my parent is 86424
+Hi I'm process 86424 with return arg 43 and my parent is 86423
+Hi I'm process 86423 with return arg 44 and my parent is 86422
+Hi im process 86423 with return arg 44. I found the hidden key in position A[8878]
+Hi I'm process 86422 with return arg 45 and my parent is 86421
+Hi I'm process 86421 with return arg 46 and my parent is 86420
+Hi I'm process 86420 with return arg 47 and my parent is 86419
+Hi I'm process 86419 with return arg 48 and my parent is 86418
+Hi I'm process 86418 with return arg 49 and my parent is 86417
+Hi I'm process 86417 with return arg 50 and my parent is 86416
+Hi im process 86417 with return arg 50. I found the hidden key in position A[8764]
+Hi I'm process 86416 with return arg 51 and my parent is 86415
+Hi I'm process 86415 with return arg 52 and my parent is 86414
+Hi I'm process 86414 with return arg 53 and my parent is 86413
+Hi I'm process 86413 with return arg 54 and my parent is 86412
+Hi I'm process 86412 with return arg 55 and my parent is 86411
+Hi I'm process 86411 with return arg 56 and my parent is 86410
+Hi im process 86411 with return arg 56. I found the hidden key in position A[8661]
+Hi I'm process 86410 with return arg 57 and my parent is 86409
+Hi im process 86410 with return arg 57. I found the hidden key in position A[8630]
+Hi I'm process 86409 with return arg 58 and my parent is 86408
+Hi I'm process 86408 with return arg 59 and my parent is 86407
+Hi I'm process 86407 with return arg 60 and my parent is 86406
+Hi im process 86407 with return arg 60. I found the hidden key in position A[8576]
+Hi I'm process 86406 with return arg 61 and my parent is 86405
+Hi I'm process 86405 with return arg 62 and my parent is 86404
+Hi im process 86405 with return arg 62. I found the hidden key in position A[8537]
+Hi I'm process 86404 with return arg 63 and my parent is 86403
+Hi I'm process 86403 with return arg 64 and my parent is 86402
+Hi im process 86403 with return arg 64. I found the hidden key in position A[8501]
+Hi I'm process 86402 with return arg 65 and my parent is 86401
+Hi I'm process 86401 with return arg 66 and my parent is 86400
+Hi I'm process 86400 with return arg 67 and my parent is 86399
+Hi I'm process 86399 with return arg 68 and my parent is 86398
+Hi I'm process 86398 with return arg 69 and my parent is 86397
+Hi I'm process 86397 with return arg 70 and my parent is 86396
+Hi I'm process 86396 with return arg 71 and my parent is 86395
+Hi I'm process 86395 with return arg 72 and my parent is 86394
+Hi I'm process 86394 with return arg 73 and my parent is 86393
+Hi im process 86394 with return arg 73. I found the hidden key in position A[8333]
+Hi I'm process 86393 with return arg 74 and my parent is 86392
+Hi I'm process 86392 with return arg 75 and my parent is 86391
+Hi I'm process 86391 with return arg 76 and my parent is 86390
+Hi I'm process 86390 with return arg 77 and my parent is 86389
+Hi im process 86390 with return arg 77. I found the hidden key in position A[8247]
+Hi I'm process 86389 with return arg 78 and my parent is 86388
+Hi I'm process 86388 with return arg 79 and my parent is 86387
+Hi I'm process 86387 with return arg 80 and my parent is 86386
+Hi I'm process 86386 with return arg 81 and my parent is 86385
+Hi im process 86386 with return arg 81. I found the hidden key in position A[8171]
+Hi im process 86386 with return arg 81. I found the hidden key in position A[8186]
+Hi I'm process 86385 with return arg 82 and my parent is 86384
+Hi I'm process 86384 with return arg 83 and my parent is 86383
+Hi I'm process 86383 with return arg 84 and my parent is 86382
+Hi I'm process 86382 with return arg 85 and my parent is 86381
+Hi I'm process 86381 with return arg 86 and my parent is 86380
+Hi I'm process 86380 with return arg 87 and my parent is 86379
+Hi I'm process 86379 with return arg 88 and my parent is 86378
+Hi I'm process 86378 with return arg 89 and my parent is 86377
+Hi I'm process 86377 with return arg 90 and my parent is 86376
+Hi im process 86377 with return arg 90. I found the hidden key in position A[8012]
+Hi I'm process 86376 with return arg 91 and my parent is 86375
+Hi I'm process 86375 with return arg 92 and my parent is 86374
+Hi I'm process 86374 with return arg 93 and my parent is 86373
+Hi I'm process 86373 with return arg 94 and my parent is 86372
+Hi I'm process 86372 with return arg 95 and my parent is 86371
+Hi I'm process 86371 with return arg 96 and my parent is 86370
+Hi I'm process 86370 with return arg 97 and my parent is 86369
+Hi im process 86370 with return arg 97. I found the hidden key in position A[7874]
+Hi I'm process 86369 with return arg 98 and my parent is 86368
+Hi I'm process 86368 with return arg 99 and my parent is 86367
+Hi I'm process 86367 with return arg 100 and my parent is 86366
+Hi I'm process 86366 with return arg 101 and my parent is 86365
+Hi I'm process 86365 with return arg 102 and my parent is 86364
+Hi im process 86365 with return arg 102. I found the hidden key in position A[7784]
+Hi I'm process 86364 with return arg 103 and my parent is 86363
+Hi I'm process 86363 with return arg 104 and my parent is 86362
+Hi I'm process 86362 with return arg 105 and my parent is 86361
+Hi I'm process 86361 with return arg 106 and my parent is 86360
+Hi I'm process 86360 with return arg 107 and my parent is 86359
+Hi I'm process 86359 with return arg 108 and my parent is 86358
+Hi im process 86359 with return arg 108. I found the hidden key in position A[7657]
+Hi I'm process 86358 with return arg 109 and my parent is 86357
+Hi I'm process 86357 with return arg 110 and my parent is 86356
+Hi I'm process 86356 with return arg 111 and my parent is 86355
+Hi I'm process 86355 with return arg 112 and my parent is 86354
+Hi I'm process 86354 with return arg 113 and my parent is 86353
+Hi I'm process 86353 with return arg 114 and my parent is 86352
+Hi I'm process 86352 with return arg 115 and my parent is 86351
+Hi I'm process 86351 with return arg 116 and my parent is 86350
+Hi I'm process 86350 with return arg 117 and my parent is 86349
+Hi I'm process 86349 with return arg 118 and my parent is 86348
+Hi I'm process 86348 with return arg 119 and my parent is 86347
+Hi I'm process 86347 with return arg 120 and my parent is 86346
+Hi I'm process 86346 with return arg 121 and my parent is 86345
+Hi I'm process 86345 with return arg 122 and my parent is 86344
+Hi I'm process 86344 with return arg 123 and my parent is 86343
+Hi I'm process 86343 with return arg 124 and my parent is 86342
+Hi I'm process 86342 with return arg 125 and my parent is 86341
+Hi I'm process 86341 with return arg 126 and my parent is 86340
+Hi I'm process 86340 with return arg 127 and my parent is 86339
+Hi I'm process 86339 with return arg 128 and my parent is 86338
+Hi I'm process 86338 with return arg 129 and my parent is 86337
+Hi I'm process 86337 with return arg 130 and my parent is 86336
+Hi im process 86337 with return arg 130. I found the hidden key in position A[7250]
+Hi I'm process 86336 with return arg 131 and my parent is 86335
+Hi I'm process 86335 with return arg 132 and my parent is 86334
+Hi I'm process 86334 with return arg 133 and my parent is 86333
+Hi I'm process 86333 with return arg 134 and my parent is 86332
+Hi I'm process 86332 with return arg 135 and my parent is 86331
+Hi I'm process 86331 with return arg 136 and my parent is 86330
+Hi I'm process 86330 with return arg 137 and my parent is 86329
+Hi I'm process 86329 with return arg 138 and my parent is 86328
+Hi I'm process 86328 with return arg 139 and my parent is 86327
+Hi I'm process 86327 with return arg 140 and my parent is 86326
+Hi I'm process 86326 with return arg 141 and my parent is 86325
+Hi I'm process 86325 with return arg 142 and my parent is 86324
+Hi I'm process 86324 with return arg 143 and my parent is 86323
+Hi I'm process 86323 with return arg 144 and my parent is 86322
+Hi im process 86323 with return arg 144. I found the hidden key in position A[6979]
+Hi I'm process 86322 with return arg 145 and my parent is 86321
+Hi I'm process 86321 with return arg 146 and my parent is 86320
+Hi I'm process 86320 with return arg 147 and my parent is 86319
+Hi im process 86320 with return arg 147. I found the hidden key in position A[6929]
+Hi I'm process 86319 with return arg 148 and my parent is 86318
+Hi im process 86319 with return arg 148. I found the hidden key in position A[6901]
+Hi I'm process 86318 with return arg 149 and my parent is 86317
+Hi I'm process 86317 with return arg 150 and my parent is 86316
+Hi I'm process 86316 with return arg 151 and my parent is 86315
+Hi I'm process 86315 with return arg 152 and my parent is 86314
+Hi I'm process 86314 with return arg 153 and my parent is 86313
+Hi I'm process 86313 with return arg 154 and my parent is 86312
+Hi I'm process 86312 with return arg 155 and my parent is 86311
+Hi I'm process 86311 with return arg 156 and my parent is 86310
+Hi I'm process 86310 with return arg 157 and my parent is 86309
+Hi I'm process 86309 with return arg 158 and my parent is 86308
+Hi I'm process 86308 with return arg 159 and my parent is 86307
+Hi I'm process 86307 with return arg 160 and my parent is 86306
+Hi I'm process 86306 with return arg 161 and my parent is 86305
+Hi I'm process 86305 with return arg 162 and my parent is 86304
+Hi I'm process 86304 with return arg 163 and my parent is 86303
+Hi im process 86304 with return arg 163. I found the hidden key in position A[6612]
+Hi I'm process 86303 with return arg 164 and my parent is 86302
+Hi I'm process 86302 with return arg 165 and my parent is 86301
+Hi I'm process 86301 with return arg 166 and my parent is 86300
+Hi I'm process 86300 with return arg 167 and my parent is 86299
+Hi I'm process 86299 with return arg 168 and my parent is 86298
+Hi I'm process 86298 with return arg 169 and my parent is 86297
+Hi I'm process 86297 with return arg 170 and my parent is 86296
+Hi I'm process 86296 with return arg 171 and my parent is 86295
+Hi I'm process 86295 with return arg 172 and my parent is 86294
+Hi I'm process 86294 with return arg 173 and my parent is 86293
+Hi I'm process 86293 with return arg 174 and my parent is 86292
+Hi I'm process 86292 with return arg 175 and my parent is 86291
+Hi I'm process 86291 with return arg 176 and my parent is 86290
+Hi I'm process 86290 with return arg 177 and my parent is 86289
+Hi I'm process 86289 with return arg 178 and my parent is 86288
+Hi I'm process 86288 with return arg 179 and my parent is 86287
+Hi I'm process 86287 with return arg 180 and my parent is 86286
+Hi I'm process 86286 with return arg 181 and my parent is 86285
+Hi I'm process 86285 with return arg 182 and my parent is 86284
+Hi I'm process 86284 with return arg 183 and my parent is 86283
+Hi I'm process 86283 with return arg 184 and my parent is 86282
+Hi I'm process 86282 with return arg 185 and my parent is 86281
+Hi im process 86282 with return arg 185. I found the hidden key in position A[6210]
+Hi I'm process 86281 with return arg 186 and my parent is 86280
+Hi I'm process 86280 with return arg 187 and my parent is 86279
+Hi I'm process 86279 with return arg 188 and my parent is 86278
+Hi I'm process 86278 with return arg 189 and my parent is 86277
+Hi I'm process 86277 with return arg 190 and my parent is 86276
+Hi I'm process 86276 with return arg 191 and my parent is 86275
+Hi I'm process 86275 with return arg 192 and my parent is 86274
+Hi I'm process 86274 with return arg 193 and my parent is 86273
+Hi I'm process 86273 with return arg 194 and my parent is 86272
+Hi I'm process 86272 with return arg 195 and my parent is 86271
+Hi I'm process 86271 with return arg 196 and my parent is 86270
+Hi I'm process 86270 with return arg 197 and my parent is 86269
+Hi I'm process 86269 with return arg 198 and my parent is 86268
+Hi I'm process 86268 with return arg 199 and my parent is 86267
+Hi I'm process 86267 with return arg 200 and my parent is 86266
+Hi I'm process 86266 with return arg 201 and my parent is 86265
+Hi I'm process 86265 with return arg 202 and my parent is 86264
+Hi I'm process 86264 with return arg 203 and my parent is 86263
+Hi I'm process 86263 with return arg 204 and my parent is 86262
+Hi I'm process 86262 with return arg 205 and my parent is 86261
+Hi I'm process 86261 with return arg 206 and my parent is 86260
+Hi I'm process 86260 with return arg 207 and my parent is 86259
+Hi I'm process 86259 with return arg 208 and my parent is 86258
+Hi I'm process 86258 with return arg 209 and my parent is 86257
+Hi I'm process 86257 with return arg 210 and my parent is 86256
+Hi I'm process 86256 with return arg 211 and my parent is 86255
+Hi I'm process 86255 with return arg 212 and my parent is 86254
+Hi I'm process 86254 with return arg 213 and my parent is 86253
+Hi I'm process 86253 with return arg 214 and my parent is 86252
+Hi I'm process 86252 with return arg 215 and my parent is 86251
+Hi I'm process 86251 with return arg 216 and my parent is 86250
+Hi I'm process 86250 with return arg 217 and my parent is 86249
+Hi I'm process 86249 with return arg 218 and my parent is 86248
+Hi I'm process 86248 with return arg 219 and my parent is 86247
+Hi I'm process 86247 with return arg 220 and my parent is 86246
+Hi I'm process 86246 with return arg 221 and my parent is 86245
+Hi I'm process 86245 with return arg 222 and my parent is 86244
+Hi I'm process 86244 with return arg 223 and my parent is 86243
+Hi I'm process 86243 with return arg 224 and my parent is 86242
+Hi I'm process 86242 with return arg 225 and my parent is 86241
+Hi I'm process 86241 with return arg 226 and my parent is 86240
+Hi I'm process 86240 with return arg 227 and my parent is 86239
+Hi I'm process 86239 with return arg 228 and my parent is 86238
+Hi I'm process 86238 with return arg 229 and my parent is 86237
+Hi I'm process 86237 with return arg 230 and my parent is 86236
+Hi I'm process 86236 with return arg 231 and my parent is 86235
+Hi I'm process 86235 with return arg 232 and my parent is 86234
+Hi I'm process 86234 with return arg 233 and my parent is 86233
+Hi I'm process 86233 with return arg 234 and my parent is 86232
+Hi I'm process 86232 with return arg 235 and my parent is 86231
+Hi I'm process 86231 with return arg 236 and my parent is 86230
+Hi I'm process 86230 with return arg 237 and my parent is 86229
+Hi I'm process 86229 with return arg 238 and my parent is 86228
+Hi I'm process 86228 with return arg 239 and my parent is 86227
+Hi I'm process 86227 with return arg 240 and my parent is 86226
+Hi I'm process 86226 with return arg 241 and my parent is 86225
+Hi I'm process 86225 with return arg 242 and my parent is 86224
+Hi I'm process 86224 with return arg 243 and my parent is 86223
+Hi I'm process 86223 with return arg 244 and my parent is 86222
+Hi I'm process 86222 with return arg 245 and my parent is 86221
+Hi I'm process 86221 with return arg 246 and my parent is 86220
+Hi I'm process 86220 with return arg 247 and my parent is 86219
+Hi I'm process 86219 with return arg 248 and my parent is 86218
+Hi I'm process 86218 with return arg 249 and my parent is 86217
+Hi I'm process 86217 with return arg 250 and my parent is 86216
+Hi I'm process 86216 with return arg 251 and my parent is 86215
+Hi I'm process 86215 with return arg 252 and my parent is 86214
+Hi I'm process 86214 with return arg 253 and my parent is 86213
+Hi I'm process 86213 with return arg 254 and my parent is 86212
+Hi I'm process 86212 with return arg 255 and my parent is 86211
+Hi I'm process 86211 with return arg 256 and my parent is 86210
+Hi I'm process 86210 with return arg 257 and my parent is 86209
+Hi I'm process 86209 with return arg 258 and my parent is 86208
+Hi I'm process 86208 with return arg 259 and my parent is 86207
+Hi I'm process 86207 with return arg 260 and my parent is 86206
+Hi I'm process 86206 with return arg 261 and my parent is 86205
+Hi I'm process 86205 with return arg 262 and my parent is 86204
+Hi I'm process 86204 with return arg 263 and my parent is 86203
+Hi I'm process 86203 with return arg 264 and my parent is 86202
+Hi I'm process 86202 with return arg 265 and my parent is 86201
+Hi I'm process 86201 with return arg 266 and my parent is 86200
+Hi I'm process 86200 with return arg 267 and my parent is 86199
+Hi I'm process 86199 with return arg 268 and my parent is 86198
+Hi I'm process 86198 with return arg 269 and my parent is 86197
+Hi I'm process 86197 with return arg 270 and my parent is 86196
+Hi I'm process 86196 with return arg 271 and my parent is 86195
+Hi I'm process 86195 with return arg 272 and my parent is 86194
+Hi I'm process 86194 with return arg 273 and my parent is 86193
+Hi I'm process 86193 with return arg 274 and my parent is 86192
+Hi I'm process 86192 with return arg 275 and my parent is 86191
+Hi I'm process 86191 with return arg 276 and my parent is 86190
+Hi I'm process 86190 with return arg 277 and my parent is 86189
+Hi I'm process 86189 with return arg 278 and my parent is 86188
+Hi I'm process 86188 with return arg 279 and my parent is 86187
+Hi I'm process 86187 with return arg 280 and my parent is 86186
+Hi I'm process 86186 with return arg 281 and my parent is 86185
+Hi I'm process 86185 with return arg 282 and my parent is 86184
+Hi I'm process 86184 with return arg 283 and my parent is 86183
+Hi I'm process 86183 with return arg 284 and my parent is 86182
+Hi I'm process 86182 with return arg 285 and my parent is 86181
+Hi I'm process 86181 with return arg 286 and my parent is 86180
+Hi I'm process 86180 with return arg 287 and my parent is 86179
+Hi I'm process 86179 with return arg 288 and my parent is 86178
+Hi I'm process 86178 with return arg 289 and my parent is 86177
+Hi I'm process 86177 with return arg 290 and my parent is 86176
+Hi I'm process 86176 with return arg 291 and my parent is 86175
+Hi I'm process 86175 with return arg 292 and my parent is 86174
+Hi I'm process 86174 with return arg 293 and my parent is 86173
+Hi I'm process 86173 with return arg 294 and my parent is 86172
+Hi I'm process 86172 with return arg 295 and my parent is 86171
+Hi I'm process 86171 with return arg 296 and my parent is 86170
+Hi I'm process 86170 with return arg 297 and my parent is 86169
+Hi I'm process 86169 with return arg 298 and my parent is 86168
+Hi I'm process 86168 with return arg 299 and my parent is 86167
+Hi I'm process 86167 with return arg 300 and my parent is 86166
+Hi I'm process 86166 with return arg 301 and my parent is 86165
+Hi I'm process 86165 with return arg 302 and my parent is 86164
+Hi I'm process 86164 with return arg 303 and my parent is 86163
+Hi I'm process 86163 with return arg 304 and my parent is 86162
+Hi I'm process 86162 with return arg 305 and my parent is 86161
+Hi I'm process 86161 with return arg 306 and my parent is 86160
+Hi I'm process 86160 with return arg 307 and my parent is 86159
+Hi I'm process 86159 with return arg 308 and my parent is 86158
+Hi I'm process 86158 with return arg 309 and my parent is 86157
+Hi I'm process 86157 with return arg 310 and my parent is 86156
+Hi I'm process 86156 with return arg 311 and my parent is 86155
+Hi I'm process 86155 with return arg 312 and my parent is 86154
+Hi I'm process 86154 with return arg 313 and my parent is 86153
+Hi I'm process 86153 with return arg 314 and my parent is 86152
+Hi I'm process 86152 with return arg 315 and my parent is 86151
+Hi I'm process 86151 with return arg 316 and my parent is 86150
+Hi I'm process 86150 with return arg 317 and my parent is 86149
+Hi I'm process 86149 with return arg 318 and my parent is 86148
+Hi I'm process 86148 with return arg 319 and my parent is 86147
+Hi I'm process 86147 with return arg 320 and my parent is 86146
+Hi I'm process 86146 with return arg 321 and my parent is 86145
+Hi I'm process 86145 with return arg 322 and my parent is 86144
+Hi I'm process 86144 with return arg 323 and my parent is 86143
+Hi I'm process 86143 with return arg 324 and my parent is 86142
+Hi I'm process 86142 with return arg 325 and my parent is 86141
+Hi I'm process 86141 with return arg 326 and my parent is 86140
+Hi I'm process 86140 with return arg 327 and my parent is 86139
+Hi I'm process 86139 with return arg 328 and my parent is 86138
+Hi I'm process 86138 with return arg 329 and my parent is 86137
+Hi I'm process 86137 with return arg 330 and my parent is 86136
+Hi I'm process 86136 with return arg 331 and my parent is 86135
+Hi I'm process 86135 with return arg 332 and my parent is 86134
+Hi I'm process 86134 with return arg 333 and my parent is 86133
+Hi I'm process 86133 with return arg 334 and my parent is 86132
+Hi I'm process 86132 with return arg 335 and my parent is 86131
+Hi I'm process 86131 with return arg 336 and my parent is 86130
+Hi I'm process 86130 with return arg 337 and my parent is 86129
+Hi I'm process 86129 with return arg 338 and my parent is 86128
+Hi I'm process 86128 with return arg 339 and my parent is 86127
+Hi I'm process 86127 with return arg 340 and my parent is 86126
+Hi I'm process 86126 with return arg 341 and my parent is 86125
+Hi I'm process 86125 with return arg 342 and my parent is 86124
+Hi I'm process 86124 with return arg 343 and my parent is 86123
+Hi I'm process 86123 with return arg 344 and my parent is 86122
+Hi I'm process 86122 with return arg 345 and my parent is 86121
+Hi I'm process 86121 with return arg 346 and my parent is 86120
+Hi I'm process 86120 with return arg 347 and my parent is 86119
+Hi I'm process 86119 with return arg 348 and my parent is 86118
+Hi I'm process 86118 with return arg 349 and my parent is 86117
+Hi I'm process 86117 with return arg 350 and my parent is 86116
+Hi I'm process 86116 with return arg 351 and my parent is 86115
+Hi I'm process 86115 with return arg 352 and my parent is 86114
+Hi I'm process 86114 with return arg 353 and my parent is 86113
+Hi I'm process 86113 with return arg 354 and my parent is 86112
+Hi I'm process 86112 with return arg 355 and my parent is 86111
+Hi I'm process 86111 with return arg 356 and my parent is 86110
+Hi I'm process 86110 with return arg 357 and my parent is 86109
+Hi I'm process 86109 with return arg 358 and my parent is 86108
+Hi I'm process 86108 with return arg 359 and my parent is 86107
+Hi I'm process 86107 with return arg 360 and my parent is 86106
+Hi I'm process 86106 with return arg 361 and my parent is 86105
+Hi I'm process 86105 with return arg 362 and my parent is 86104
+Hi I'm process 86104 with return arg 363 and my parent is 86103
+Hi I'm process 86103 with return arg 364 and my parent is 86102
+Hi I'm process 86102 with return arg 365 and my parent is 86101
+Hi I'm process 86101 with return arg 366 and my parent is 86100
+Hi I'm process 86100 with return arg 367 and my parent is 86099
+Hi I'm process 86099 with return arg 368 and my parent is 86098
+Hi I'm process 86098 with return arg 369 and my parent is 86097
+Hi I'm process 86097 with return arg 370 and my parent is 86096
+Hi I'm process 86096 with return arg 371 and my parent is 86095
+Hi I'm process 86095 with return arg 372 and my parent is 86094
+Hi I'm process 86094 with return arg 373 and my parent is 86093
+Hi I'm process 86093 with return arg 374 and my parent is 86092
+Hi I'm process 86092 with return arg 375 and my parent is 86091
+Hi I'm process 86091 with return arg 376 and my parent is 86090
+Hi I'm process 86090 with return arg 377 and my parent is 86089
+Hi I'm process 86089 with return arg 378 and my parent is 86088
+Hi I'm process 86088 with return arg 379 and my parent is 86087
+Hi I'm process 86087 with return arg 380 and my parent is 86086
+Hi I'm process 86086 with return arg 381 and my parent is 86085
+Hi I'm process 86085 with return arg 382 and my parent is 86084
+Hi I'm process 86084 with return arg 383 and my parent is 86083
+Hi I'm process 86083 with return arg 384 and my parent is 86082
+Hi I'm process 86082 with return arg 385 and my parent is 86081
+Hi I'm process 86081 with return arg 386 and my parent is 86080
+Hi I'm process 86080 with return arg 387 and my parent is 86079
+Hi I'm process 86079 with return arg 388 and my parent is 86078
+Hi I'm process 86078 with return arg 389 and my parent is 86077
+Hi I'm process 86077 with return arg 390 and my parent is 86076
+Hi I'm process 86076 with return arg 391 and my parent is 86075
+Hi I'm process 86075 with return arg 392 and my parent is 86074
+Hi I'm process 86074 with return arg 393 and my parent is 86073
+Hi I'm process 86073 with return arg 394 and my parent is 86072
+Hi I'm process 86072 with return arg 395 and my parent is 86071
+Hi I'm process 86071 with return arg 396 and my parent is 86070
+Hi I'm process 86070 with return arg 397 and my parent is 86069
+Hi I'm process 86069 with return arg 398 and my parent is 86068
+Hi I'm process 86068 with return arg 399 and my parent is 86067
+Hi I'm process 86067 with return arg 400 and my parent is 86066
+Hi I'm process 86066 with return arg 401 and my parent is 86065
+Hi I'm process 86065 with return arg 402 and my parent is 86064
+Hi I'm process 86064 with return arg 403 and my parent is 86063
+Hi I'm process 86063 with return arg 404 and my parent is 86062
+Hi I'm process 86062 with return arg 405 and my parent is 86061
+Hi I'm process 86061 with return arg 406 and my parent is 86060
+Hi I'm process 86060 with return arg 407 and my parent is 86059
+Hi I'm process 86059 with return arg 408 and my parent is 86058
+Hi I'm process 86058 with return arg 409 and my parent is 86057
+Hi I'm process 86057 with return arg 410 and my parent is 86056
+Hi I'm process 86056 with return arg 411 and my parent is 86055
+Hi I'm process 86055 with return arg 412 and my parent is 86054
+Hi I'm process 86054 with return arg 413 and my parent is 86053
+Hi I'm process 86053 with return arg 414 and my parent is 86052
+Hi I'm process 86052 with return arg 415 and my parent is 86051
+Hi I'm process 86051 with return arg 416 and my parent is 86050
+Hi I'm process 86050 with return arg 417 and my parent is 86049
+Hi I'm process 86049 with return arg 418 and my parent is 86048
+Hi I'm process 86048 with return arg 419 and my parent is 86047
+Hi I'm process 86047 with return arg 420 and my parent is 86046
+Hi I'm process 86046 with return arg 421 and my parent is 86045
+Hi I'm process 86045 with return arg 422 and my parent is 86044
+Hi I'm process 86044 with return arg 423 and my parent is 86043
+Hi I'm process 86043 with return arg 424 and my parent is 86042
+Hi I'm process 86042 with return arg 425 and my parent is 86041
+Hi I'm process 86041 with return arg 426 and my parent is 86040
+Hi I'm process 86040 with return arg 427 and my parent is 86039
+Hi I'm process 86039 with return arg 428 and my parent is 86038
+Hi I'm process 86038 with return arg 429 and my parent is 86037
+Hi I'm process 86037 with return arg 430 and my parent is 86036
+Hi I'm process 86036 with return arg 431 and my parent is 86035
+Hi I'm process 86035 with return arg 432 and my parent is 86034
+Hi I'm process 86034 with return arg 433 and my parent is 86033
+Hi I'm process 86033 with return arg 434 and my parent is 86032
+Hi I'm process 86032 with return arg 435 and my parent is 86031
+Hi I'm process 86031 with return arg 436 and my parent is 86030
+Hi I'm process 86030 with return arg 437 and my parent is 86029
+Hi I'm process 86029 with return arg 438 and my parent is 86028
+Hi I'm process 86028 with return arg 439 and my parent is 86027
+Hi I'm process 86027 with return arg 440 and my parent is 86026
+Hi I'm process 86026 with return arg 441 and my parent is 86025
+Hi I'm process 86025 with return arg 442 and my parent is 86024
+Hi I'm process 86024 with return arg 443 and my parent is 86023
+Hi I'm process 86023 with return arg 444 and my parent is 86022
+Hi I'm process 86022 with return arg 445 and my parent is 86021
+Hi I'm process 86021 with return arg 446 and my parent is 86020
+Hi I'm process 86020 with return arg 447 and my parent is 86019
+Hi I'm process 86019 with return arg 448 and my parent is 86018
+Hi I'm process 86018 with return arg 449 and my parent is 86017
+Hi I'm process 86017 with return arg 450 and my parent is 86016
+Hi I'm process 86016 with return arg 451 and my parent is 86015
+Hi I'm process 86015 with return arg 452 and my parent is 86014
+Hi I'm process 86014 with return arg 453 and my parent is 86013
+Hi I'm process 86013 with return arg 454 and my parent is 86012
+Hi I'm process 86012 with return arg 455 and my parent is 86011
+Hi I'm process 86011 with return arg 456 and my parent is 86010
+Hi I'm process 86010 with return arg 457 and my parent is 86009
+Hi I'm process 86009 with return arg 458 and my parent is 86008
+Hi I'm process 86008 with return arg 459 and my parent is 86007
+Hi I'm process 86007 with return arg 460 and my parent is 86006
+Hi I'm process 86006 with return arg 461 and my parent is 86005
+Hi I'm process 86005 with return arg 462 and my parent is 86004
+Hi I'm process 86004 with return arg 463 and my parent is 86003
+Hi I'm process 86003 with return arg 464 and my parent is 86002
+Hi I'm process 86002 with return arg 465 and my parent is 86001
+Hi I'm process 86001 with return arg 466 and my parent is 86000
+Hi I'm process 86000 with return arg 467 and my parent is 85999
+Hi I'm process 85999 with return arg 468 and my parent is 85998
+Hi I'm process 85998 with return arg 469 and my parent is 85997
+Hi I'm process 85997 with return arg 470 and my parent is 85996
+Hi I'm process 85996 with return arg 471 and my parent is 85995
+Hi I'm process 85995 with return arg 472 and my parent is 85994
+Hi I'm process 85994 with return arg 473 and my parent is 85993
+Hi I'm process 85993 with return arg 474 and my parent is 85992
+Hi I'm process 85992 with return arg 475 and my parent is 85991
+Hi I'm process 85991 with return arg 476 and my parent is 85990
+Hi I'm process 85990 with return arg 477 and my parent is 85989
+Hi I'm process 85989 with return arg 478 and my parent is 85988
+Hi I'm process 85988 with return arg 479 and my parent is 85987
+Hi I'm process 85987 with return arg 480 and my parent is 85986
+Hi I'm process 85986 with return arg 481 and my parent is 85985
+Hi I'm process 85985 with return arg 482 and my parent is 85984
+Hi I'm process 85984 with return arg 483 and my parent is 85983
+Hi I'm process 85983 with return arg 484 and my parent is 85982
+Hi I'm process 85982 with return arg 485 and my parent is 85981
+Hi I'm process 85981 with return arg 486 and my parent is 85980
+Hi I'm process 85980 with return arg 487 and my parent is 85978
+Hi I'm process 85978 with return arg 488 and my parent is 85977
+Hi I'm process 85977 with return arg 489 and my parent is 85976
+Hi I'm process 85976 with return arg 490 and my parent is 85975
+Hi I'm process 85975 with return arg 491 and my parent is 85974
+Hi I'm process 85974 with return arg 492 and my parent is 85973
+Hi I'm process 85973 with return arg 493 and my parent is 85972
+Hi I'm process 85972 with return arg 494 and my parent is 85971
+Hi I'm process 85971 with return arg 495 and my parent is 85970
+Hi I'm process 85970 with return arg 496 and my parent is 85969
+Hi I'm process 85969 with return arg 497 and my parent is 85968
+Hi I'm process 85968 with return arg 498 and my parent is 85967
+Hi I'm process 85967 with return arg 499 and my parent is 85966
+Hi I'm process 85966 with return arg 500 and my parent is 85965
+Hi I'm process 85965 with return arg 501 and my parent is 85964
+Hi I'm process 85964 with return arg 502 and my parent is 85963
+Hi I'm process 85963 with return arg 503 and my parent is 85962
+Hi I'm process 85962 with return arg 504 and my parent is 85961
+Hi I'm process 85961 with return arg 505 and my parent is 85960
+Hi I'm process 85960 with return arg 506 and my parent is 85959
+Hi I'm process 85959 with return arg 507 and my parent is 85958
+Hi I'm process 85958 with return arg 508 and my parent is 85957
+Hi I'm process 85957 with return arg 509 and my parent is 85956
+Hi I'm process 85956 with return arg 510 and my parent is 85955
+Hi I'm process 85955 with return arg 511 and my parent is 63454
+Max: 10000	Average: 5014.139160
+Hi I'm process 87024 with return arg 1 and my parent is 87023
+Hi im process 87024 with return arg 1. I found the hidden key in position A[9773]
+Hi I'm process 87023 with return arg 2 and my parent is 87022
+Hi I'm process 87022 with return arg 3 and my parent is 87021
+Hi I'm process 87021 with return arg 4 and my parent is 87020
+Hi I'm process 87020 with return arg 5 and my parent is 87019
+Hi I'm process 87019 with return arg 6 and my parent is 87018
+Hi I'm process 87018 with return arg 7 and my parent is 87017
+Hi I'm process 87017 with return arg 8 and my parent is 87016
+Hi I'm process 87016 with return arg 9 and my parent is 87015
+Hi I'm process 87015 with return arg 10 and my parent is 87014
+Hi I'm process 87014 with return arg 11 and my parent is 87013
+Hi I'm process 87013 with return arg 12 and my parent is 87012
+Hi I'm process 87012 with return arg 13 and my parent is 87011
+Hi I'm process 87011 with return arg 14 and my parent is 87010
+Hi I'm process 87010 with return arg 15 and my parent is 87009
+Hi I'm process 87009 with return arg 16 and my parent is 87008
+Hi I'm process 87008 with return arg 17 and my parent is 87007
+Hi I'm process 87007 with return arg 18 and my parent is 87006
+Hi I'm process 87006 with return arg 19 and my parent is 87005
+Hi I'm process 87005 with return arg 20 and my parent is 87004
+Hi I'm process 87004 with return arg 21 and my parent is 87003
+Hi I'm process 87003 with return arg 22 and my parent is 87002
+Hi I'm process 87002 with return arg 23 and my parent is 87001
+Hi I'm process 87001 with return arg 24 and my parent is 87000
+Hi I'm process 87000 with return arg 25 and my parent is 86999
+Hi im process 87000 with return arg 25. I found the hidden key in position A[9239]
+Hi I'm process 86999 with return arg 26 and my parent is 86998
+Hi I'm process 86998 with return arg 27 and my parent is 86997
+Hi I'm process 86997 with return arg 28 and my parent is 86996
+Hi I'm process 86996 with return arg 29 and my parent is 86995
+Hi I'm process 86995 with return arg 30 and my parent is 86994
+Hi I'm process 86994 with return arg 31 and my parent is 86993
+Hi im process 86994 with return arg 31. I found the hidden key in position A[9136]
+Hi I'm process 86993 with return arg 32 and my parent is 86992
+Hi I'm process 86992 with return arg 33 and my parent is 86991
+Hi I'm process 86991 with return arg 34 and my parent is 86990
+Hi I'm process 86990 with return arg 35 and my parent is 86989
+Hi I'm process 86989 with return arg 36 and my parent is 86988
+Hi I'm process 86988 with return arg 37 and my parent is 86987
+Hi I'm process 86987 with return arg 38 and my parent is 86986
+Hi I'm process 86986 with return arg 39 and my parent is 86985
+Hi I'm process 86985 with return arg 40 and my parent is 86984
+Hi im process 86985 with return arg 40. I found the hidden key in position A[8965]
+Hi I'm process 86984 with return arg 41 and my parent is 86983
+Hi I'm process 86983 with return arg 42 and my parent is 86982
+Hi I'm process 86982 with return arg 43 and my parent is 86981
+Hi im process 86982 with return arg 43. I found the hidden key in position A[8907]
+Hi I'm process 86981 with return arg 44 and my parent is 86980
+Hi I'm process 86980 with return arg 45 and my parent is 86979
+Hi I'm process 86979 with return arg 46 and my parent is 86978
+Hi I'm process 86978 with return arg 47 and my parent is 86977
+Hi I'm process 86977 with return arg 48 and my parent is 86976
+Hi I'm process 86976 with return arg 49 and my parent is 86975
+Hi I'm process 86975 with return arg 50 and my parent is 86974
+Hi I'm process 86974 with return arg 51 and my parent is 86973
+Hi I'm process 86973 with return arg 52 and my parent is 86972
+Hi I'm process 86972 with return arg 53 and my parent is 86971
+Hi I'm process 86971 with return arg 54 and my parent is 86970
+Hi I'm process 86970 with return arg 55 and my parent is 86969
+Hi im process 86970 with return arg 55. I found the hidden key in position A[8675]
+Hi I'm process 86969 with return arg 56 and my parent is 86968
+Hi I'm process 86968 with return arg 57 and my parent is 86967
+Hi I'm process 86967 with return arg 58 and my parent is 86966
+Hi I'm process 86966 with return arg 59 and my parent is 86965
+Hi I'm process 86965 with return arg 60 and my parent is 86964
+Hi I'm process 86964 with return arg 61 and my parent is 86963
+Hi I'm process 86963 with return arg 62 and my parent is 86962
+Hi I'm process 86962 with return arg 63 and my parent is 86961
+Hi I'm process 86961 with return arg 64 and my parent is 86960
+Hi I'm process 86960 with return arg 65 and my parent is 86959
+Hi I'm process 86959 with return arg 66 and my parent is 86958
+Hi I'm process 86958 with return arg 67 and my parent is 86957
+Hi I'm process 86957 with return arg 68 and my parent is 86956
+Hi I'm process 86956 with return arg 69 and my parent is 86955
+Hi I'm process 86955 with return arg 70 and my parent is 86954
+Hi im process 86955 with return arg 70. I found the hidden key in position A[8386]
+Hi im process 86955 with return arg 70. I found the hidden key in position A[8389]
+Hi I'm process 86954 with return arg 71 and my parent is 86953
+Hi I'm process 86953 with return arg 72 and my parent is 86952
+Hi I'm process 86952 with return arg 73 and my parent is 86951
+Hi I'm process 86951 with return arg 74 and my parent is 86950
+Hi I'm process 86950 with return arg 75 and my parent is 86949
+Hi I'm process 86949 with return arg 76 and my parent is 86948
+Hi I'm process 86948 with return arg 77 and my parent is 86947
+Hi I'm process 86947 with return arg 78 and my parent is 86946
+Hi I'm process 86946 with return arg 79 and my parent is 86945
+Hi I'm process 86945 with return arg 80 and my parent is 86944
+Hi I'm process 86944 with return arg 81 and my parent is 86943
+Hi I'm process 86943 with return arg 82 and my parent is 86942
+Hi I'm process 86942 with return arg 83 and my parent is 86941
+Hi I'm process 86941 with return arg 84 and my parent is 86940
+Hi I'm process 86940 with return arg 85 and my parent is 86939
+Hi I'm process 86939 with return arg 86 and my parent is 86938
+Hi I'm process 86938 with return arg 87 and my parent is 86937
+Hi I'm process 86937 with return arg 88 and my parent is 86936
+Hi I'm process 86936 with return arg 89 and my parent is 86935
+Hi I'm process 86935 with return arg 90 and my parent is 86933
+Hi I'm process 86933 with return arg 91 and my parent is 86932
+Hi I'm process 86932 with return arg 92 and my parent is 86931
+Hi I'm process 86931 with return arg 93 and my parent is 86930
+Hi I'm process 86930 with return arg 94 and my parent is 86929
+Hi I'm process 86929 with return arg 95 and my parent is 86928
+Hi I'm process 86928 with return arg 96 and my parent is 86927
+Hi I'm process 86927 with return arg 97 and my parent is 86926
+Hi I'm process 86926 with return arg 98 and my parent is 86925
+Hi I'm process 86925 with return arg 99 and my parent is 86924
+Hi I'm process 86924 with return arg 100 and my parent is 86923
+Hi I'm process 86923 with return arg 101 and my parent is 86922
+Hi I'm process 86922 with return arg 102 and my parent is 86921
+Hi I'm process 86921 with return arg 103 and my parent is 86920
+Hi I'm process 86920 with return arg 104 and my parent is 86919
+Hi I'm process 86919 with return arg 105 and my parent is 86918
+Hi im process 86919 with return arg 105. I found the hidden key in position A[7718]
+Hi I'm process 86918 with return arg 106 and my parent is 86917
+Hi im process 86918 with return arg 106. I found the hidden key in position A[7712]
+Hi I'm process 86917 with return arg 107 and my parent is 86916
+Hi I'm process 86916 with return arg 108 and my parent is 86915
+Hi I'm process 86915 with return arg 109 and my parent is 86914
+Hi I'm process 86914 with return arg 110 and my parent is 86913
+Hi I'm process 86913 with return arg 111 and my parent is 86912
+Hi I'm process 86912 with return arg 112 and my parent is 86911
+Hi I'm process 86911 with return arg 113 and my parent is 86910
+Hi I'm process 86910 with return arg 114 and my parent is 86909
+Hi I'm process 86909 with return arg 115 and my parent is 86908
+Hi I'm process 86908 with return arg 116 and my parent is 86907
+Hi I'm process 86907 with return arg 117 and my parent is 86906
+Hi I'm process 86906 with return arg 118 and my parent is 86905
+Hi I'm process 86905 with return arg 119 and my parent is 86904
+Hi I'm process 86904 with return arg 120 and my parent is 86903
+Hi I'm process 86903 with return arg 121 and my parent is 86902
+Hi I'm process 86902 with return arg 122 and my parent is 86901
+Hi I'm process 86901 with return arg 123 and my parent is 86900
+Hi I'm process 86900 with return arg 124 and my parent is 86899
+Hi im process 86900 with return arg 124. I found the hidden key in position A[7361]
+Hi I'm process 86899 with return arg 125 and my parent is 86898
+Hi im process 86899 with return arg 125. I found the hidden key in position A[7339]
+Hi I'm process 86898 with return arg 126 and my parent is 86897
+Hi im process 86898 with return arg 126. I found the hidden key in position A[7321]
+Hi I'm process 86897 with return arg 127 and my parent is 86896
+Hi im process 86897 with return arg 127. I found the hidden key in position A[7300]
+Hi I'm process 86896 with return arg 128 and my parent is 86895
+Hi I'm process 86895 with return arg 129 and my parent is 86894
+Hi I'm process 86894 with return arg 130 and my parent is 86893
+Hi I'm process 86893 with return arg 131 and my parent is 86892
+Hi I'm process 86892 with return arg 132 and my parent is 86891
+Hi I'm process 86891 with return arg 133 and my parent is 86890
+Hi I'm process 86890 with return arg 134 and my parent is 86889
+Hi im process 86890 with return arg 134. I found the hidden key in position A[7163]
+Hi I'm process 86889 with return arg 135 and my parent is 86888
+Hi I'm process 86888 with return arg 136 and my parent is 86887
+Hi I'm process 86887 with return arg 137 and my parent is 86886
+Hi I'm process 86886 with return arg 138 and my parent is 86885
+Hi im process 86886 with return arg 138. I found the hidden key in position A[7093]
+Hi I'm process 86885 with return arg 139 and my parent is 86884
+Hi I'm process 86884 with return arg 140 and my parent is 86883
+Hi I'm process 86883 with return arg 141 and my parent is 86882
+Hi I'm process 86882 with return arg 142 and my parent is 86881
+Hi I'm process 86881 with return arg 143 and my parent is 86880
+Hi I'm process 86880 with return arg 144 and my parent is 86879
+Hi I'm process 86879 with return arg 145 and my parent is 86878
+Hi I'm process 86878 with return arg 146 and my parent is 86877
+Hi I'm process 86877 with return arg 147 and my parent is 86876
+Hi I'm process 86876 with return arg 148 and my parent is 86875
+Hi I'm process 86875 with return arg 149 and my parent is 86874
+Hi I'm process 86874 with return arg 150 and my parent is 86873
+Hi I'm process 86873 with return arg 151 and my parent is 86872
+Hi I'm process 86872 with return arg 152 and my parent is 86871
+Hi I'm process 86871 with return arg 153 and my parent is 86870
+Hi I'm process 86870 with return arg 154 and my parent is 86869
+Hi I'm process 86869 with return arg 155 and my parent is 86868
+Hi I'm process 86868 with return arg 156 and my parent is 86867
+Hi I'm process 86867 with return arg 157 and my parent is 86866
+Hi I'm process 86866 with return arg 158 and my parent is 86865
+Hi I'm process 86865 with return arg 159 and my parent is 86864
+Hi I'm process 86864 with return arg 160 and my parent is 86863
+Hi I'm process 86863 with return arg 161 and my parent is 86862
+Hi I'm process 86862 with return arg 162 and my parent is 86861
+Hi im process 86862 with return arg 162. I found the hidden key in position A[6649]
+Hi I'm process 86861 with return arg 163 and my parent is 86860
+Hi I'm process 86860 with return arg 164 and my parent is 86859
+Hi I'm process 86859 with return arg 165 and my parent is 86858
+Hi I'm process 86858 with return arg 166 and my parent is 86857
+Hi I'm process 86857 with return arg 167 and my parent is 86856
+Hi I'm process 86856 with return arg 168 and my parent is 86855
+Hi I'm process 86855 with return arg 169 and my parent is 86854
+Hi I'm process 86854 with return arg 170 and my parent is 86853
+Hi I'm process 86853 with return arg 171 and my parent is 86852
+Hi I'm process 86852 with return arg 172 and my parent is 86851
+Hi im process 86852 with return arg 172. I found the hidden key in position A[6448]
+Hi I'm process 86851 with return arg 173 and my parent is 86850
+Hi im process 86851 with return arg 173. I found the hidden key in position A[6423]
+Hi I'm process 86850 with return arg 174 and my parent is 86849
+Hi I'm process 86849 with return arg 175 and my parent is 86848
+Hi I'm process 86848 with return arg 176 and my parent is 86847
+Hi I'm process 86847 with return arg 177 and my parent is 86846
+Hi I'm process 86846 with return arg 178 and my parent is 86845
+Hi I'm process 86845 with return arg 179 and my parent is 86844
+Hi im process 86845 with return arg 179. I found the hidden key in position A[6324]
+Hi I'm process 86844 with return arg 180 and my parent is 86843
+Hi I'm process 86843 with return arg 181 and my parent is 86842
+Hi I'm process 86842 with return arg 182 and my parent is 86841
+Hi I'm process 86841 with return arg 183 and my parent is 86840
+Hi im process 86841 with return arg 183. I found the hidden key in position A[6244]
+Hi im process 86841 with return arg 183. I found the hidden key in position A[6247]
+Hi I'm process 86840 with return arg 184 and my parent is 86839
+Hi I'm process 86839 with return arg 185 and my parent is 86838
+Hi I'm process 86838 with return arg 186 and my parent is 86837
+Hi I'm process 86837 with return arg 187 and my parent is 86836
+Hi I'm process 86836 with return arg 188 and my parent is 86835
+Hi I'm process 86835 with return arg 189 and my parent is 86834
+Hi I'm process 86834 with return arg 190 and my parent is 86833
+Hi I'm process 86833 with return arg 191 and my parent is 86832
+Hi I'm process 86832 with return arg 192 and my parent is 86831
+Hi I'm process 86831 with return arg 193 and my parent is 86830
+Hi I'm process 86830 with return arg 194 and my parent is 86829
+Hi I'm process 86829 with return arg 195 and my parent is 86828
+Hi I'm process 86828 with return arg 196 and my parent is 86827
+Hi I'm process 86827 with return arg 197 and my parent is 86826
+Hi I'm process 86826 with return arg 198 and my parent is 86825
+Hi I'm process 86825 with return arg 199 and my parent is 86824
+Hi I'm process 86824 with return arg 200 and my parent is 86823
+Hi I'm process 86823 with return arg 201 and my parent is 86822
+Hi I'm process 86822 with return arg 202 and my parent is 86821
+Hi I'm process 86821 with return arg 203 and my parent is 86820
+Hi I'm process 86820 with return arg 204 and my parent is 86819
+Hi I'm process 86819 with return arg 205 and my parent is 86818
+Hi I'm process 86818 with return arg 206 and my parent is 86817
+Hi I'm process 86817 with return arg 207 and my parent is 86816
+Hi I'm process 86816 with return arg 208 and my parent is 86815
+Hi I'm process 86815 with return arg 209 and my parent is 86814
+Hi im process 86815 with return arg 209. I found the hidden key in position A[5745]
+Hi I'm process 86814 with return arg 210 and my parent is 86813
+Hi I'm process 86813 with return arg 211 and my parent is 86812
+Hi I'm process 86812 with return arg 212 and my parent is 86811
+Hi im process 86812 with return arg 212. I found the hidden key in position A[5689]
+Hi I'm process 86811 with return arg 213 and my parent is 86810
+Hi I'm process 86810 with return arg 214 and my parent is 86809
+Hi I'm process 86809 with return arg 215 and my parent is 86808
+Hi I'm process 86808 with return arg 216 and my parent is 86807
+Hi I'm process 86807 with return arg 217 and my parent is 86806
+Hi I'm process 86806 with return arg 218 and my parent is 86805
+Hi I'm process 86805 with return arg 219 and my parent is 86804
+Hi im process 86805 with return arg 219. I found the hidden key in position A[5565]
+Hi I'm process 86804 with return arg 220 and my parent is 86803
+Hi I'm process 86803 with return arg 221 and my parent is 86802
+Hi I'm process 86802 with return arg 222 and my parent is 86801
+Hi I'm process 86801 with return arg 223 and my parent is 86800
+Hi I'm process 86800 with return arg 224 and my parent is 86799
+Hi I'm process 86799 with return arg 225 and my parent is 86798
+Hi I'm process 86798 with return arg 226 and my parent is 86797
+Hi I'm process 86797 with return arg 227 and my parent is 86796
+Hi I'm process 86796 with return arg 228 and my parent is 86795
+Hi I'm process 86795 with return arg 229 and my parent is 86794
+Hi I'm process 86794 with return arg 230 and my parent is 86793
+Hi I'm process 86793 with return arg 231 and my parent is 86792
+Hi I'm process 86792 with return arg 232 and my parent is 86791
+Hi im process 86792 with return arg 232. I found the hidden key in position A[5316]
+Hi I'm process 86791 with return arg 233 and my parent is 86790
+Hi I'm process 86790 with return arg 234 and my parent is 86789
+Hi I'm process 86789 with return arg 235 and my parent is 86788
+Hi im process 86789 with return arg 235. I found the hidden key in position A[5245]
+Hi I'm process 86788 with return arg 236 and my parent is 86787
+Hi I'm process 86787 with return arg 237 and my parent is 86786
+Hi I'm process 86786 with return arg 238 and my parent is 86785
+Hi I'm process 86785 with return arg 239 and my parent is 86784
+Hi I'm process 86784 with return arg 240 and my parent is 86783
+Hi I'm process 86783 with return arg 241 and my parent is 86782
+Hi I'm process 86782 with return arg 242 and my parent is 86781
+Hi I'm process 86781 with return arg 243 and my parent is 86780
+Hi I'm process 86780 with return arg 244 and my parent is 86779
+Hi I'm process 86779 with return arg 245 and my parent is 86778
+Hi I'm process 86778 with return arg 246 and my parent is 86777
+Hi I'm process 86777 with return arg 247 and my parent is 86776
+Hi I'm process 86776 with return arg 248 and my parent is 86775
+Hi I'm process 86775 with return arg 249 and my parent is 86774
+Hi I'm process 86774 with return arg 250 and my parent is 86773
+Hi im process 86774 with return arg 250. I found the hidden key in position A[4968]
+Hi I'm process 86773 with return arg 251 and my parent is 86772
+Hi I'm process 86772 with return arg 252 and my parent is 86771
+Hi I'm process 86771 with return arg 253 and my parent is 86770
+Hi I'm process 86770 with return arg 254 and my parent is 86769
+Hi I'm process 86769 with return arg 255 and my parent is 86768
+Hi I'm process 86768 with return arg 256 and my parent is 86767
+Hi I'm process 86767 with return arg 257 and my parent is 86766
+Hi im process 86767 with return arg 257. I found the hidden key in position A[4832]
+Hi im process 86767 with return arg 257. I found the hidden key in position A[4835]
+Hi I'm process 86766 with return arg 258 and my parent is 86765
+Hi I'm process 86765 with return arg 259 and my parent is 86764
+Hi I'm process 86764 with return arg 260 and my parent is 86763
+Hi I'm process 86763 with return arg 261 and my parent is 86762
+Hi I'm process 86762 with return arg 262 and my parent is 86761
+Hi I'm process 86761 with return arg 263 and my parent is 86760
+Hi I'm process 86760 with return arg 264 and my parent is 86759
+Hi I'm process 86759 with return arg 265 and my parent is 86758
+Hi I'm process 86758 with return arg 266 and my parent is 86757
+Hi I'm process 86757 with return arg 267 and my parent is 86756
+Hi I'm process 86756 with return arg 268 and my parent is 86755
+Hi I'm process 86755 with return arg 269 and my parent is 86754
+Hi I'm process 86754 with return arg 270 and my parent is 86753
+Hi I'm process 86753 with return arg 271 and my parent is 86752
+Hi I'm process 86752 with return arg 272 and my parent is 86751
+Hi I'm process 86751 with return arg 273 and my parent is 86750
+Hi I'm process 86750 with return arg 274 and my parent is 86749
+Hi I'm process 86749 with return arg 275 and my parent is 86748
+Hi I'm process 86748 with return arg 276 and my parent is 86747
+Hi I'm process 86747 with return arg 277 and my parent is 86746
+Hi I'm process 86746 with return arg 278 and my parent is 86745
+Hi I'm process 86745 with return arg 279 and my parent is 86744
+Hi I'm process 86744 with return arg 280 and my parent is 86743
+Hi I'm process 86743 with return arg 281 and my parent is 86742
+Hi I'm process 86742 with return arg 282 and my parent is 86741
+Hi I'm process 86741 with return arg 283 and my parent is 86740
+Hi I'm process 86740 with return arg 284 and my parent is 86739
+Hi I'm process 86739 with return arg 285 and my parent is 86738
+Hi I'm process 86738 with return arg 286 and my parent is 86737
+Hi I'm process 86737 with return arg 287 and my parent is 86736
+Hi I'm process 86736 with return arg 288 and my parent is 86735
+Hi I'm process 86735 with return arg 289 and my parent is 86734
+Hi I'm process 86734 with return arg 290 and my parent is 86733
+Hi I'm process 86733 with return arg 291 and my parent is 86732
+Hi I'm process 86732 with return arg 292 and my parent is 86731
+Hi I'm process 86731 with return arg 293 and my parent is 86730
+Hi I'm process 86730 with return arg 294 and my parent is 86729
+Hi I'm process 86729 with return arg 295 and my parent is 86728
+Hi I'm process 86728 with return arg 296 and my parent is 86727
+Hi I'm process 86727 with return arg 297 and my parent is 86726
+Hi I'm process 86726 with return arg 298 and my parent is 86725
+Hi I'm process 86725 with return arg 299 and my parent is 86724
+Hi I'm process 86724 with return arg 300 and my parent is 86723
+Hi I'm process 86723 with return arg 301 and my parent is 86722
+Hi I'm process 86722 with return arg 302 and my parent is 86721
+Hi I'm process 86721 with return arg 303 and my parent is 86720
+Hi I'm process 86720 with return arg 304 and my parent is 86719
+Hi I'm process 86719 with return arg 305 and my parent is 86718
+Hi I'm process 86718 with return arg 306 and my parent is 86717
+Hi I'm process 86717 with return arg 307 and my parent is 86716
+Hi I'm process 86716 with return arg 308 and my parent is 86715
+Hi I'm process 86715 with return arg 309 and my parent is 86714
+Hi I'm process 86714 with return arg 310 and my parent is 86713
+Hi I'm process 86713 with return arg 311 and my parent is 86712
+Hi I'm process 86712 with return arg 312 and my parent is 86711
+Hi I'm process 86711 with return arg 313 and my parent is 86710
+Hi I'm process 86710 with return arg 314 and my parent is 86709
+Hi I'm process 86709 with return arg 315 and my parent is 86708
+Hi I'm process 86708 with return arg 316 and my parent is 86707
+Hi I'm process 86707 with return arg 317 and my parent is 86706
+Hi I'm process 86706 with return arg 318 and my parent is 86705
+Hi I'm process 86705 with return arg 319 and my parent is 86704
+Hi I'm process 86704 with return arg 320 and my parent is 86703
+Hi I'm process 86703 with return arg 321 and my parent is 86702
+Hi I'm process 86702 with return arg 322 and my parent is 86701
+Hi I'm process 86701 with return arg 323 and my parent is 86700
+Hi I'm process 86700 with return arg 324 and my parent is 86699
+Hi I'm process 86699 with return arg 325 and my parent is 86698
+Hi I'm process 86698 with return arg 326 and my parent is 86697
+Hi I'm process 86697 with return arg 327 and my parent is 86696
+Hi I'm process 86696 with return arg 328 and my parent is 86695
+Hi I'm process 86695 with return arg 329 and my parent is 86694
+Hi I'm process 86694 with return arg 330 and my parent is 86693
+Hi I'm process 86693 with return arg 331 and my parent is 86692
+Hi I'm process 86692 with return arg 332 and my parent is 86691
+Hi I'm process 86691 with return arg 333 and my parent is 86690
+Hi I'm process 86690 with return arg 334 and my parent is 86689
+Hi I'm process 86689 with return arg 335 and my parent is 86688
+Hi I'm process 86688 with return arg 336 and my parent is 86687
+Hi I'm process 86687 with return arg 337 and my parent is 86686
+Hi I'm process 86686 with return arg 338 and my parent is 86685
+Hi I'm process 86685 with return arg 339 and my parent is 86684
+Hi I'm process 86684 with return arg 340 and my parent is 86683
+Hi I'm process 86683 with return arg 341 and my parent is 86682
+Hi I'm process 86682 with return arg 342 and my parent is 86681
+Hi I'm process 86681 with return arg 343 and my parent is 86680
+Hi I'm process 86680 with return arg 344 and my parent is 86679
+Hi I'm process 86679 with return arg 345 and my parent is 86678
+Hi I'm process 86678 with return arg 346 and my parent is 86677
+Hi I'm process 86677 with return arg 347 and my parent is 86676
+Hi I'm process 86676 with return arg 348 and my parent is 86675
+Hi I'm process 86675 with return arg 349 and my parent is 86674
+Hi I'm process 86674 with return arg 350 and my parent is 86673
+Hi I'm process 86673 with return arg 351 and my parent is 86672
+Hi I'm process 86672 with return arg 352 and my parent is 86671
+Hi I'm process 86671 with return arg 353 and my parent is 86670
+Hi I'm process 86670 with return arg 354 and my parent is 86669
+Hi I'm process 86669 with return arg 355 and my parent is 86668
+Hi I'm process 86668 with return arg 356 and my parent is 86667
+Hi I'm process 86667 with return arg 357 and my parent is 86666
+Hi I'm process 86666 with return arg 358 and my parent is 86665
+Hi I'm process 86665 with return arg 359 and my parent is 86664
+Hi I'm process 86664 with return arg 360 and my parent is 86663
+Hi I'm process 86663 with return arg 361 and my parent is 86662
+Hi I'm process 86662 with return arg 362 and my parent is 86661
+Hi I'm process 86661 with return arg 363 and my parent is 86660
+Hi I'm process 86660 with return arg 364 and my parent is 86659
+Hi I'm process 86659 with return arg 365 and my parent is 86658
+Hi I'm process 86658 with return arg 366 and my parent is 86657
+Hi I'm process 86657 with return arg 367 and my parent is 86656
+Hi I'm process 86656 with return arg 368 and my parent is 86655
+Hi I'm process 86655 with return arg 369 and my parent is 86654
+Hi I'm process 86654 with return arg 370 and my parent is 86653
+Hi I'm process 86653 with return arg 371 and my parent is 86652
+Hi I'm process 86652 with return arg 372 and my parent is 86651
+Hi I'm process 86651 with return arg 373 and my parent is 86650
+Hi I'm process 86650 with return arg 374 and my parent is 86649
+Hi I'm process 86649 with return arg 375 and my parent is 86648
+Hi I'm process 86648 with return arg 376 and my parent is 86647
+Hi I'm process 86647 with return arg 377 and my parent is 86646
+Hi I'm process 86646 with return arg 378 and my parent is 86645
+Hi I'm process 86645 with return arg 379 and my parent is 86644
+Hi I'm process 86644 with return arg 380 and my parent is 86643
+Hi I'm process 86643 with return arg 381 and my parent is 86642
+Hi I'm process 86642 with return arg 382 and my parent is 86641
+Hi I'm process 86641 with return arg 383 and my parent is 86640
+Hi I'm process 86640 with return arg 384 and my parent is 86639
+Hi I'm process 86639 with return arg 385 and my parent is 86638
+Hi I'm process 86638 with return arg 386 and my parent is 86637
+Hi I'm process 86637 with return arg 387 and my parent is 86636
+Hi I'm process 86636 with return arg 388 and my parent is 86635
+Hi I'm process 86635 with return arg 389 and my parent is 86634
+Hi I'm process 86634 with return arg 390 and my parent is 86633
+Hi I'm process 86633 with return arg 391 and my parent is 86632
+Hi I'm process 86632 with return arg 392 and my parent is 86631
+Hi I'm process 86631 with return arg 393 and my parent is 86630
+Hi I'm process 86630 with return arg 394 and my parent is 86629
+Hi I'm process 86629 with return arg 395 and my parent is 86628
+Hi I'm process 86628 with return arg 396 and my parent is 86627
+Hi I'm process 86627 with return arg 397 and my parent is 86626
+Hi I'm process 86626 with return arg 398 and my parent is 86625
+Hi I'm process 86625 with return arg 399 and my parent is 86624
+Hi I'm process 86624 with return arg 400 and my parent is 86623
+Hi I'm process 86623 with return arg 401 and my parent is 86622
+Hi I'm process 86622 with return arg 402 and my parent is 86621
+Hi I'm process 86621 with return arg 403 and my parent is 86620
+Hi I'm process 86620 with return arg 404 and my parent is 86619
+Hi I'm process 86619 with return arg 405 and my parent is 86618
+Hi I'm process 86618 with return arg 406 and my parent is 86617
+Hi I'm process 86617 with return arg 407 and my parent is 86616
+Hi I'm process 86616 with return arg 408 and my parent is 86615
+Hi I'm process 86615 with return arg 409 and my parent is 86614
+Hi I'm process 86614 with return arg 410 and my parent is 86613
+Hi I'm process 86613 with return arg 411 and my parent is 86612
+Hi I'm process 86612 with return arg 412 and my parent is 86611
+Hi I'm process 86611 with return arg 413 and my parent is 86610
+Hi I'm process 86610 with return arg 414 and my parent is 86609
+Hi I'm process 86609 with return arg 415 and my parent is 86608
+Hi I'm process 86608 with return arg 416 and my parent is 86607
+Hi I'm process 86607 with return arg 417 and my parent is 86606
+Hi I'm process 86606 with return arg 418 and my parent is 86605
+Hi I'm process 86605 with return arg 419 and my parent is 86604
+Hi I'm process 86604 with return arg 420 and my parent is 86603
+Hi I'm process 86603 with return arg 421 and my parent is 86602
+Hi I'm process 86602 with return arg 422 and my parent is 86601
+Hi I'm process 86601 with return arg 423 and my parent is 86600
+Hi I'm process 86600 with return arg 424 and my parent is 86599
+Hi I'm process 86599 with return arg 425 and my parent is 86598
+Hi I'm process 86598 with return arg 426 and my parent is 86597
+Hi I'm process 86597 with return arg 427 and my parent is 86596
+Hi I'm process 86596 with return arg 428 and my parent is 86595
+Hi I'm process 86595 with return arg 429 and my parent is 86594
+Hi I'm process 86594 with return arg 430 and my parent is 86593
+Hi I'm process 86593 with return arg 431 and my parent is 86592
+Hi I'm process 86592 with return arg 432 and my parent is 86591
+Hi I'm process 86591 with return arg 433 and my parent is 86590
+Hi I'm process 86590 with return arg 434 and my parent is 86589
+Hi I'm process 86589 with return arg 435 and my parent is 86588
+Hi I'm process 86588 with return arg 436 and my parent is 86587
+Hi I'm process 86587 with return arg 437 and my parent is 86586
+Hi I'm process 86586 with return arg 438 and my parent is 86585
+Hi I'm process 86585 with return arg 439 and my parent is 86584
+Hi I'm process 86584 with return arg 440 and my parent is 86583
+Hi I'm process 86583 with return arg 441 and my parent is 86582
+Hi I'm process 86582 with return arg 442 and my parent is 86581
+Hi I'm process 86581 with return arg 443 and my parent is 86580
+Hi I'm process 86580 with return arg 444 and my parent is 86579
+Hi I'm process 86579 with return arg 445 and my parent is 86578
+Hi I'm process 86578 with return arg 446 and my parent is 86577
+Hi I'm process 86577 with return arg 447 and my parent is 86576
+Hi I'm process 86576 with return arg 448 and my parent is 86575
+Hi I'm process 86575 with return arg 449 and my parent is 86574
+Hi I'm process 86574 with return arg 450 and my parent is 86573
+Hi I'm process 86573 with return arg 451 and my parent is 86572
+Hi I'm process 86572 with return arg 452 and my parent is 86571
+Hi I'm process 86571 with return arg 453 and my parent is 86570
+Hi I'm process 86570 with return arg 454 and my parent is 86569
+Hi I'm process 86569 with return arg 455 and my parent is 86568
+Hi I'm process 86568 with return arg 456 and my parent is 86567
+Hi I'm process 86567 with return arg 457 and my parent is 86566
+Hi I'm process 86566 with return arg 458 and my parent is 86565
+Hi I'm process 86565 with return arg 459 and my parent is 86564
+Hi I'm process 86564 with return arg 460 and my parent is 86563
+Hi I'm process 86563 with return arg 461 and my parent is 86562
+Hi I'm process 86562 with return arg 462 and my parent is 86561
+Hi I'm process 86561 with return arg 463 and my parent is 86560
+Hi I'm process 86560 with return arg 464 and my parent is 86559
+Hi I'm process 86559 with return arg 465 and my parent is 86558
+Hi I'm process 86558 with return arg 466 and my parent is 86557
+Hi I'm process 86557 with return arg 467 and my parent is 86556
+Hi I'm process 86556 with return arg 468 and my parent is 86555
+Hi I'm process 86555 with return arg 469 and my parent is 86554
+Hi I'm process 86554 with return arg 470 and my parent is 86553
+Hi I'm process 86553 with return arg 471 and my parent is 86552
+Hi I'm process 86552 with return arg 472 and my parent is 86551
+Hi I'm process 86551 with return arg 473 and my parent is 86550
+Hi I'm process 86550 with return arg 474 and my parent is 86549
+Hi I'm process 86549 with return arg 475 and my parent is 86548
+Hi I'm process 86548 with return arg 476 and my parent is 86547
+Hi I'm process 86547 with return arg 477 and my parent is 86546
+Hi I'm process 86546 with return arg 478 and my parent is 86545
+Hi I'm process 86545 with return arg 479 and my parent is 86544
+Hi I'm process 86544 with return arg 480 and my parent is 86543
+Hi I'm process 86543 with return arg 481 and my parent is 86542
+Hi I'm process 86542 with return arg 482 and my parent is 86541
+Hi I'm process 86541 with return arg 483 and my parent is 86540
+Hi I'm process 86540 with return arg 484 and my parent is 86539
+Hi I'm process 86539 with return arg 485 and my parent is 86538
+Hi I'm process 86538 with return arg 486 and my parent is 86537
+Hi I'm process 86537 with return arg 487 and my parent is 86536
+Hi I'm process 86536 with return arg 488 and my parent is 86535
+Hi I'm process 86535 with return arg 489 and my parent is 86534
+Hi I'm process 86534 with return arg 490 and my parent is 86533
+Hi I'm process 86533 with return arg 491 and my parent is 86532
+Hi I'm process 86532 with return arg 492 and my parent is 86531
+Hi I'm process 86531 with return arg 493 and my parent is 86530
+Hi I'm process 86530 with return arg 494 and my parent is 86529
+Hi I'm process 86529 with return arg 495 and my parent is 86528
+Hi I'm process 86528 with return arg 496 and my parent is 86527
+Hi I'm process 86527 with return arg 497 and my parent is 86526
+Hi I'm process 86526 with return arg 498 and my parent is 86525
+Hi I'm process 86525 with return arg 499 and my parent is 86524
+Hi I'm process 86524 with return arg 500 and my parent is 86523
+Hi I'm process 86523 with return arg 501 and my parent is 86522
+Hi I'm process 86522 with return arg 502 and my parent is 86521
+Hi I'm process 86521 with return arg 503 and my parent is 86520
+Hi I'm process 86520 with return arg 504 and my parent is 86519
+Hi I'm process 86519 with return arg 505 and my parent is 86518
+Hi I'm process 86518 with return arg 506 and my parent is 86517
+Hi I'm process 86517 with return arg 507 and my parent is 86516
+Hi I'm process 86516 with return arg 508 and my parent is 86515
+Hi I'm process 86515 with return arg 509 and my parent is 86514
+Hi I'm process 86514 with return arg 510 and my parent is 86513
+Hi I'm process 86513 with return arg 511 and my parent is 63454
+Max: 10000	Average: 4970.710449
