@@ -1,106 +1,49 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <unistd.h>
+#include <math.h>
 #include <sys/wait.h>
-#include <limits.h>
+#include <time.h>
 
-#define FILENAME "randomNumbers.txt" // File being written to
-#define FOUND_KEYS_FILE "foundKeys.txt"     // File for key info
+#define FILENAME "randomNumbers.txt"
 
-// Function prototypes
+int findMax(int arr[], int start, int end);
+float findAverage(int arr[], int start, int end);
+void create_processes(int n, int start, int seg, int num[]);
+int calculate_depth(int n);
 void generateRandomNumbers(int L);
-void hiddenKeys(int H, int L);
-void processSegment(FILE *file, int start, int end, int pipe_write);
-void receiveMetrics(int pipe_read, int *max, float *average);
-void sendMetrics(int pipe_write, int max, float average);
 
-int main(int argc, char* argv[]) {
-    // Check if the correct number of arguments is provided
-    if (argc != 4) {
-        printf("Usage: %s <L> <H> <PN>\n", argv[0]);
-        printf("L: Number of integers to generate (>= 10,000)\n");
-        printf("H: Number of hidden keys (30 <= H <= 60)\n");
-        printf("PN: Number of processes to use for parallel processing (1 - 10)\n");
-        return 1;
-    }
 
-    int L = atoi(argv[1]);
-    int H = atoi(argv[2]);
-    int PN = atoi(argv[3]);
+int main() {
+    int start = 0;
+    int L = 10000;
+    int PN = 511;
+    int seg = L / PN;
 
-    // Validate input arguments
-    if (L < 10000 || H < 30 || H > 60 || PN < 1) {
-        printf("Invalid input arguments.\n");
-        return 1;
-    }
-
-    // Generate random numbers
-    generateRandomNumbers(L);   // Call function to generate L random numbers
-    hiddenKeys(H, L);           // Call function to generate hidden keys
-
-    // Open the file
+    generateRandomNumbers(L);
+    
+    int num[L];
     FILE *file = fopen(FILENAME, "r");
     if (file == NULL) {
-        perror("Error opening file");
+        fprintf(stderr, "Error opening file %s\n", FILENAME);
         return 1;
     }
-
-    int pipes[PN][2];
-    for (int i = 0; i < PN; i++) {
-        if (pipe(pipes[i]) == -1) {
-            perror("Pipe creation failed");
-            exit(EXIT_FAILURE);
-        }
+    for (int i = 0; i < L; ++i) {
+        fscanf(file, "%d", &num[i]);
     }
+    fclose(file);
+    int fd[PN][2];
 
-    pid_t pid;
-    int segment_size = L / PN;
-    for (int i = 0; i < PN; i++) {
-        pid = fork();
-
-        if (pid == -1) {
-            perror("Fork failed");
-            exit(EXIT_FAILURE);
-        
-        } else if (pid == 0) {  // Child process
-            // Do something
-            close(pipes[i][0]);     // Close read end of pipe
-            int start = i * segment_size;
-            int end = (i == PN - 1) ? L : start + segment_size;
-            processSegment(file, start, end, pipes[i][1]);
-            exit(0);
-        
-        } else {                // Parent process
-            // Do something
-            close(pipes[i][1]);     // Close write end of pipe
-        }
-    }
-
-    int total_max = INT_MIN;
-    int sum = 0;
-    for (int i = 0; i < PN; i++) {
-        int child_max;
-        float child_avg;
-        receiveMetrics(pipes[i][0], &child_max, &child_avg);
-        if (child_max > total_max) {
-            total_max = child_max;
-        }
-        sum += child_avg;
-    }
-
-    float total_avg = (float) sum / PN;
-
-    printf("Pipe max: %d\n", total_max);
-    printf("Pipe average: %f\n", total_avg);
-
+    create_processes(calculate_depth(PN), start, seg, num);
 
     return 0;
 }
 
+
 void generateRandomNumbers(int L) {
     FILE *file;
-    int i, num, sum, max;
+    int i, num, sum = 0, max = 0;
+    int negativeCount = 0;
     float average;
 
     file = fopen(FILENAME, "w");    // Open file for writing
@@ -114,92 +57,117 @@ void generateRandomNumbers(int L) {
     // Random number seeding
     srand(time(0));
 
-    // Generate random positive integers and write them to file
+    L = L + 59;
+    // Generate random positive or negative integers and write them to file
     for (i = 0; i < L; i++) {
-        num = rand() % 10000 + 1;
-        sum = sum + num;
+        // Calculate the probability for selecting a negative number
+        double negativeProbability = (double)(60 - negativeCount) / (L - i);
+
+        // Randomly select if the number will be negative based on probability
+        if (rand() / (RAND_MAX + 1.0) < negativeProbability) {
+            // Select a negative number
+            num = -(rand() % 60 + 1); // Random negative number between -1 and -60
+            negativeCount++;
+        } else {
+            // Select a positive number
+            num = rand() % 10000 + 1; // Random positive number between 1 and 10000
+        }
+
+        sum += num;
         if (num > max) {
             max = num;
         }
-        fprintf(file, "\n%d\n", num);
+        fprintf(file, "%d\n", num);
+
+        // If 60 negative numbers are generated, ensure all remaining numbers are positive
+        if (negativeCount == 60) {
+            break;
+        }
     }
 
-    average = (double)sum/L;
+    // If less than 60 negative numbers are generated, fill the remaining numbers with positive numbers
+    while (i < L) {
+        num = rand() % 10000 + 1; // Random positive number between 1 and 10000
+        sum += num;
+        if (num > max) {
+            max = num;
+        }
+        fprintf(file, "%d\n", num);
+        i++;
+    }
+
+    average = (double)sum / L;
 
     fclose(file);
     printf("Random numbers generated and written to file\n");
     printf("Self Calculated Sum of all numbers: %d\n", sum);
-    printf("Self Calcualted Max=%d, Avg=%.2f\n", max, average);
-
+    printf("Self Calculated Max=%d, Avg=%.2f\n", max, average);
 }
 
 
-void hiddenKeys(int H, int L) {
-    FILE *file;
-    int i, num, position;
-    const char EOL = '\n';
+int findMax(int arr[], int start, int end) {
+   int max = arr[start];  // Initialize max with the first element of the specified part
+  
+   for (int i = start + 1; i <= end; i++) {
+       if (arr[i] > max) {
+           max = arr[i];  // Update max if a larger element is found
+       }
+   }
+  
+   return max;
+}
 
-    file = fopen(FILENAME, "r+");   // Open file for reading and writing
 
-    // Check if file opened
-    if (file == NULL) {
-        printf("Error opening file.\n");
+// Function to calculate average value in a subarray
+float findAverage(int arr[], int start, int end) {
+    float sum = 0;
+    for (int i = start; i <= end; i++) {
+        sum += arr[i];
+    }
+    return sum / (end - start + 1);
+}
+
+
+void create_processes(int n, int start, int seg, int num[]) {
+    if (n == 0)
+        return;
+
+    pid_t child1, child2;
+    child1 = fork();
+    int max;
+    if (child1 == 0) { // Child process
+        printf("Child %d created with parent %d\n", getpid(), getppid());
+        max = findMax(num, (start + seg), (start + seg + seg - 1));
+        //printf("Max: %d\n",max);
+        start = start + (3 * seg);
+        create_processes(n - 1, start, seg, num); // Recursive call for the first child
+        exit(0);
+    } else if (child1 > 0) { // Parent process
+        child2 = fork();
+
+        if (child2 == 0) { // Second child
+            printf("Child %d created with parent %d\n", getpid(), getppid());
+            max = findMax(num, start+(2*seg), start+(2*seg)+seg-1);
+            //printf("Max: %d\n", max);
+            create_processes(n - 1, start, seg, num); // Recursive call for the second child
+            exit(0);
+        } else if (child2 < 0) { // Error handling
+            perror("fork");
+            exit(EXIT_FAILURE);
+        } else{
+            max = findMax(num, start, start+seg-1);
+            //printf("Max: %d\n", max);
+        }
+        int status;
+        waitpid(child1, &status, 0);
+        waitpid(child2, &status, 0);
+        exit(0);
+    } else { // Error handling
+        perror("fork");
         exit(EXIT_FAILURE);
     }
-
-    // Random number seeding
-    srand(time(0));
-
-    // Add hidden keys to file
-    for (i = 0; i < 60; i++) {
-        num = -(rand() % 60 + 1);
-        position = rand() % (L + 1);
-        
-        fseek(file, position*sizeof(int), SEEK_SET);
-        fprintf(file, "%d", num);
-    }
-
-    fclose(file);
-    printf("Secret keys hidden in file\n");
 }
 
-
-
-void processSegment(FILE *file, int start, int end, int pipe_write) {
-    // Process segment of the file
-    int max = INT_MIN;
-    float sum = 0;
-    int count = 0;
-    fseek(file, 0, SEEK_SET);
-
-    for (int i = 0; i < start; i++) {
-        char buffer[20];
-        fgets(buffer, sizeof(buffer), file); // Consume lines before start
-    }
-
-    for (int i = start; i < end; i++) {
-        int num;
-        fscanf(file, "%d", &num);
-        if (num < 0) continue; // Ignore negative keys
-        sum += num;
-        count++;
-        if (num > max) {
-            max = num;
-        }
-    }
-
-    float avg = (count == 0) ? 0 : sum / count;
-    sendMetrics(pipe_write, max, avg);
-}
-
-
-void receiveMetrics(int pipe_read, int *max, float *average) {
-    read(pipe_read, max, sizeof(int));
-    read(pipe_read, average, sizeof(float));
-}
-
-
-void sendMetrics(int pipe_write, int max, float average) {
-    write(pipe_write, &max, sizeof(int));
-    write(pipe_write, &average, sizeof(float));
+int calculate_depth(int n) {
+    return (int)ceil((log2(n + 1)) - 1);
 }
